@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Sample-Efficient Learning of Novel Visual Concepts">
+    <meta name="keywords" content="Sample Efficient, Object Recognition, CoLLAs 2023">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sample-Efficient Learning of Novel Visual Concepts</title>
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">Long-Horizon Dialogue Understanding for Role Identification in the Game of Avalon with Large Language Models</h1>
+                        <div class="is-size-5 publication-authors">
+
+                            <span class="author-block">
+                                    <a href="https://simonstepputtis.com">Simon Stepputtis</a><sup>1</sup>,</span>
+                            <span class="author-block">
+                                <a href="https://sites.google.com/asu.edu/jcampbell/">Joseph Campbell</a><sup>1</sup>,</span>
+                            <span class="author-block"></span>Yaqi Xie<sup>1</sup>,</span>
+                            <span class="author-block"></span>Zhengyang Qi<sup>1</sup>,</span>
+                            <span class="author-block"></span>Wenxin Sharon Zhang<sup>1</sup>,</span>
+                            <span class="author-block"></span>Ruiyi Wang<sup>1</sup>,</span>
+                            <span class="author-block"></span>Sanketh Rangreji<sup>1</sup>,</span>
+                            <span class="author-block"></span>Charles Michael Lewis<sup>2</sup>,</span>
+                            <span class="author-block"></span>Katia P. Sycara<sup>1</sup></span>
+                        </div>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"><sup>1</sup><i>Carnegie Melon University</i>, <sup>2</sup><i>University of Pittsburgh</i></span>
+                        </div>
+                        <br>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">Presented at the <b><i>Findings of the Association for Computational Linguistics</i></b> - EMNLP 2023</span>
+                        </div>
+                        <!-- <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/abs/2306.09482"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                <span>arXiv Paper</span>
+                                </a>
+                                </span>
+                                <span class="link-block">
+                                    <a href="https://www.youtube.com/watch?v=S4GyhYA7HtE"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-youtube"></i>
+                                        </span>
+                                <span>Introductory Video</span>
+                                </a>
+                                </span>
+                                <span class="link-block">
+                                    <a href="https://github.com/sarthak268/sample-efficient-visual-concept-learning"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                <span>Code</span>
+                                </a>
+                                </span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <!-- <div class="columns is-centered">
+
+                <div class="column">
+                    <div class="content">
+                        <img src="static/assets/animation.gif" alt="Simulation task" width="70%" style="margin-left: 15%;">
+                    </div>
+                </div>
+
+            </div> -->
+
+            <!-- Abstract. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Abstract</h2>
+                    <div class="content has-text-justified">
+                        <p>
+                            Deception and persuasion play a critical role in long-horizon dialogues between multiple parties, especially when the interests, goals, and motivations of the participants are not aligned. However, such complex deceptive tasks pose challenges for Large
+                            Language Models (LLM) as malicious intent can easily mislead them, especially in conversations among multiple human users over extended time horizons. In this work, we investigate the ability of multiple current state-of-the-art
+                            LLMs in a challenging social deduction setting, namely the game of <i>Avalon: The Resistance</i>, in which players commonly utilize persuasion and deception to achieve their individual and team goals.
+                            We introduce an online test bed and dataset containing 20 carefully collected and labeled games among human players that exhibiting these properties in a cooperative-competitive setting, making it a compelling benchmark to
+                            investigate the decision-making and language-processing capabilities of LLMs. With this dataset, we discuss the capabilities of LLMs to utilize deceptive long-horizon conversations between six human players in order to determine
+                            each player's goal and motivation. Particularly, we discuss the multimodal integration of the chat between the players and the game's state that grounds the conversation, providing further insights into the true player identities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--/ Abstract. -->
+
+            <!-- Paper video. -->
+            <!-- <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Introduction Video (7 Minutes)</h2>
+                    <div class="publication-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/S4GyhYA7HtE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div> -->
+            <!--/ Paper video. -->
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop content">
+
+            <div class="rows">
+
+                <!-- <div class="rows is-centered ">
+                    <di v class="row is-full-width">
+                        <h2 class="title is-3"><span class="dcliport">Dataset Overview</span></h2>
+
+
+
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+            <pre><code>@misc{bhagat2023sampleefficient,
+      title={Sample-Efficient Learning of Novel Visual Concepts}, 
+      author={Sarthak Bhagat and Simon Stepputtis and Joseph Campbell and Katia Sycara},
+      year={2023},
+      eprint={2306.09482},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}</code></pre>
+        </div>
+    </section> -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column">
+                    <div class="content has-text-centered">
+                        <p>
+                            Website template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a> made by <a href="https://keunhong.com/">Keunhong Park</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
