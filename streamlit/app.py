@@ -4,7 +4,7 @@ import json
 import numpy as np
 import plotly.graph_objects as go
 
-DATAFILE = "./sample.json"
+DATAFILE = "./streamlit/sample.json"
 
 @st.cache_data
 def loadData(path):
@@ -241,7 +241,7 @@ if "turn_select" not in st.session_state:
     st.session_state["turn_select"] = 0
 
  # Setup
-local_css("./style.css")
+local_css("./streamlit/style.css")
 st.markdown("<style>div[data-testid=\"stChatMessage\"] \{border-style: solid;\}</style>", unsafe_allow_html=True)
 data = loadData(DATAFILE)
 
