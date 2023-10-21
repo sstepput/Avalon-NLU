@@ -235,7 +235,7 @@ def getPlayerBelieves(data):
         if not (bel["quest"] < quest or (bel["quest"] == quest and bel["turn"] <= rnd)):
             break
         idx = int(bel["player"].split("-")[-1])-1
-        about = "About " + bel["about_player"].capitalize()
+        about = "For " + bel["about_player"].capitalize()
         df.loc[idx, about] = bel["belief"].capitalize()
 
     return df
