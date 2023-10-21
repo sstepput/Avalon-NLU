@@ -1,0 +1,27 @@
+.player_name {
+    margin-top: -10px;
+}
+
+.chat_msg {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+
+/* .strategy_label_row {
+    margin-top: 15px;
+}
+
+.strategy_label {
+    border-style: solid;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: -0.5rem;
+    width: 100px;
+    text-align: center;
+} */
+
+[data-testid=stVerticalBlock] {
+    gap: 0rem;
+}
