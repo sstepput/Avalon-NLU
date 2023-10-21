@@ -217,11 +217,16 @@ def deception_plot(msgs):
     )
     return fig
 
+def getUserRole(data, name):
+    for uid, user in data["users"].items():
+        if user["name"] == name:
+            return user["role"].capitalize().split("-")[0]
+
 def getPlayerBelieves(data):
     beliefs = []
     for i in range(1, 7):
-        beliefs.append([f"Player-{i}", None, None, None, None, None, None])
-    df = pd.DataFrame(beliefs, columns=["Player","About Player-1", "About Player-2", "About Player-3", "About Player-4", "About Player-5", "About Player-6"])
+        beliefs.append([f"Player-{i} ({getUserRole(data, 'player-' + str(i))})", None, None, None, None, None, None])
+    df = pd.DataFrame(beliefs, columns=["Player","For Player-1", "For Player-2", "For Player-3", "For Player-4", "For Player-5", "For Player-6"])
 
     quest = st.session_state["quest_select"]
     rnd = st.session_state["turn_select"]
