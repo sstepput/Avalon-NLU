@@ -1,0 +1,18 @@
+.desk {}
+
+.div-only-mobile {}
+
+@media screen and (max-width: 1920px) {
+    .div-only-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .desk {
+        display: none;
+    }
+    .div-only-mobile {
+        display: block;
+    }
+}

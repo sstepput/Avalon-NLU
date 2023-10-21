@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="./static/css/custom.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="./static/js/fontawesome.all.min.js"></script>
     <script src="./static/js/bulma-carousel.min.js"></script>
@@ -131,8 +132,15 @@
                 <div class="rows is-centered ">
                     <di v class="row is-full-width">
                         <h2 class="title is-3"><span class="dcliport">Dataset Overview</span></h2>
-                        The following is an example game from our dataset of current 20 games.
-                        <iframe src="https://avalon-nlu.streamlit.app/?embed=true&embed_options=light_theme" height="1000px" style="width:100%;border:none;"></iframe>
+                        <div class="desk">
+                            The following is an example game from our dataset of current 20 games.
+                            <iframe src="https://avalon-nlu.streamlit.app/?embed=true&embed_options=light_theme" height="1000px" style="width:100%;border:none;"></iframe>
+                        </div>
+                        <div class="div-only-mobile">
+                            Our dataset of currently 20 games contains the following information: Chat among the six players, hand-labeled persuasion strategies, hand-labeled deception strategies for all evil players, beliefs over what players though about other players at different
+                            stages of the game, as well as the full game state containing proposed parties and vote outcomes.
+                            <br> <br><b>Note:</b> <i>For non-mobile devices, this website provides an interactive demo of our dataset.</i>
+                        </div>
 
                 </div>
             </div>
