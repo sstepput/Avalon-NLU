@@ -238,7 +238,7 @@ def getPlayerBelieves(data):
 if "quest_select" not in st.session_state:
     st.session_state["quest_select"] = 1
 if "turn_select" not in st.session_state:
-    st.session_state["turn_select"] = 0
+    st.session_state["turn_select"] = 1
 
  # Setup
 local_css("./streamlit/style.css")
