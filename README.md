@@ -7,7 +7,7 @@ If you find this dataset or online version of Avalon useful, please cite our wor
 ```
 @inproceedings{stepputtis2023longhorizon,
     title={Long-Horizon Dialogue Understanding for Role Identification in the Game of Avalon with Large Language Models},
-    author={Stepputtis, Simon and Campbell, Joseph and Xie, Yaqi and Qi, Zhengyang and Zhang, Wenxin Sharon and Wang, Ruiyi and Rangreji, Sanketh and Lewis, Charles Michael and Sycara, Katia},
+    author={Stepputtis, Simon and Campbell, Joseph and Xie, Yaqi and Qi, Zhengyang and Zhang, Wenxin Sharon and Wang, Ruiyi and Rangreji, Sanketh and Lewis, Michael and Sycara, Katia},
     booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
     year={2023},
     url={https://openreview.net/forum?id=JKmsjKJ0Q8}
