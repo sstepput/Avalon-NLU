@@ -1,0 +1,2192 @@
+{
+    "users": {
+        "1": {
+            "name": "player-1",
+            "role": "servant-1",
+            "index": 1
+        },
+        "2": {
+            "name": "player-2",
+            "role": "morgana",
+            "index": 2
+        },
+        "3": {
+            "name": "player-3",
+            "role": "percival",
+            "index": 3
+        },
+        "4": {
+            "name": "player-4",
+            "role": "merlin",
+            "index": 4
+        },
+        "5": {
+            "name": "player-5",
+            "role": "assassin",
+            "index": 5
+        },
+        "6": {
+            "name": "player-6",
+            "role": "servant-2",
+            "index": 6
+        }
+    },
+    "messages": {
+        "1": {
+            "player": "system",
+            "msg": "game started!",
+            "mid": "7DD6KnXimVzLk",
+            "quest": 1,
+            "turn": 1
+        },
+        "2": {
+            "player": "player-4",
+            "msg": "good old first random selection",
+            "mid": "jAA24vGhj4LNQ",
+            "quest": 1,
+            "turn": 2
+        },
+        "3": {
+            "player": "system",
+            "msg": "player-4 proposed a party: player-4, player-3",
+            "mid": "none",
+            "quest": 1,
+            "turn": 2
+        },
+        "4": {
+            "player": "player-5",
+            "msg": "i'm fine with this. we have no information to go off so doesn't seem unreasonable.",
+            "mid": "VJJmMJVTmMDD",
+            "quest": 1,
+            "turn": 3
+        },
+        "5": {
+            "player": "player-6",
+            "msg": "no information now. lets give this a shot.",
+            "mid": "DwwRnwpIYJYA",
+            "quest": 1,
+            "turn": 4
+        },
+        "6": {
+            "player": "player-1",
+            "msg": "yeah, whatever",
+            "mid": "ZZZ4QmWI5Nr0B",
+            "quest": 1,
+            "turn": 5
+        },
+        "7": {
+            "player": "player-2",
+            "msg": "no objection.",
+            "mid": "1VVjABAt3OqR",
+            "quest": 1,
+            "turn": 6
+        },
+        "8": {
+            "player": "player-2",
+            "msg": "but i'm good. i want to be on the quest as well.",
+            "mid": "N77xAp7IAgP2",
+            "quest": 1,
+            "turn": 6
+        },
+        "9": {
+            "player": "player-3",
+            "msg": "agree",
+            "mid": "p99g57ofnWMGn",
+            "quest": 1,
+            "turn": 7
+        },
+        "10": {
+            "player": "system",
+            "msg": "party vote outcome: player-1: yes, player-2: yes, player-3: yes, player-4: yes, player-5: yes, player-6: yes",
+            "mid": "KAAOxzQU2DBQR",
+            "quest": 1,
+            "turn": 7
+        },
+        "11": {
+            "player": "system",
+            "msg": "vote succeeded! initiating quest vote!",
+            "mid": "rgg04B9u8rWOR",
+            "quest": 1,
+            "turn": 7
+        },
+        "12": {
+            "player": "system",
+            "msg": "quest succeeded!",
+            "mid": "DwwRn6JtAw5L",
+            "quest": 1,
+            "turn": 7
+        },
+        "13": {
+            "player": "player-5",
+            "msg": "i will take the usual approach and add myself to the last party.",
+            "mid": "M77jzNvt5DoL0",
+            "quest": 2,
+            "turn": 1
+        },
+        "14": {
+            "player": "player-5",
+            "msg": "we don't know anything yet, so let's see how the vote goes.",
+            "mid": "1VVjAE2sxOnJ",
+            "quest": 2,
+            "turn": 1
+        },
+        "15": {
+            "player": "system",
+            "msg": "player-5 proposed a party: player-5, player-4, player-3",
+            "mid": "none",
+            "quest": 2,
+            "turn": 1
+        },
+        "16": {
+            "player": "player-6",
+            "msg": "i agree with player-5.",
+            "mid": "vmmg4LVT7X4QQ",
+            "quest": 2,
+            "turn": 2
+        },
+        "17": {
+            "player": "player-1",
+            "msg": "we don't know anything we didn't know last round, so this is probably fine again",
+            "mid": "jAA24JBHYAEj",
+            "quest": 2,
+            "turn": 3
+        },
+        "18": {
+            "player": "player-2",
+            "msg": "yup. i'm fine with the proposal as well.",
+            "mid": "A88nkXvH59MY",
+            "quest": 2,
+            "turn": 4
+        },
+        "19": {
+            "player": "player-3",
+            "msg": "agree. this shall give us more information",
+            "mid": "4WW8024SB9xPR",
+            "quest": 2,
+            "turn": 5
+        },
+        "20": {
+            "player": "player-4",
+            "msg": "fine",
+            "mid": "qAAj4ovum1Y8",
+            "quest": 2,
+            "turn": 6
+        },
+        "21": {
+            "player": "system",
+            "msg": "party vote outcome: player-1: yes, player-2: yes, player-3: yes, player-4: yes, player-5: yes, player-6: yes",
+            "mid": "6YY6JyytrXN9A",
+            "quest": 2,
+            "turn": 6
+        },
+        "22": {
+            "player": "system",
+            "msg": "vote succeeded! initiating quest vote!",
+            "mid": "XYY6OwwtMoox",
+            "quest": 2,
+            "turn": 6
+        },
+        "23": {
+            "player": "system",
+            "msg": "quest failed!",
+            "mid": "ypp8g5LSr5q7j",
+            "quest": 2,
+            "turn": 6
+        },
+        "24": {
+            "player": "system",
+            "msg": "player-6 proposed a party: player-6, player-3, player-4, player-1",
+            "mid": "none",
+            "quest": 3,
+            "turn": 0
+        },
+        "25": {
+            "player": "player-6",
+            "msg": "i am just including myself, the two people that succeeded in the first round and player-1 randomly",
+            "mid": "vmmg4zAs1DJQ",
+            "quest": 3,
+            "turn": 1
+        },
+        "26": {
+            "player": "player-6",
+            "msg": "making the assumption that player-5 is the bad guy",
+            "mid": "YVV6Pn4U393KK",
+            "quest": 3,
+            "turn": 1
+        },
+        "27": {
+            "player": "player-6",
+            "msg": "which is probably a bad assumption as player-4 and player-3 could be bad",
+            "mid": "N77xAREuwLlw",
+            "quest": 3,
+            "turn": 1
+        },
+        "28": {
+            "player": "player-6",
+            "msg": "so i have no idea frankly",
+            "mid": "EKKloByS3WDVn",
+            "quest": 3,
+            "turn": 1
+        },
+        "29": {
+            "player": "player-1",
+            "msg": "there is still not much to go off here",
+            "mid": "VJJmM9GTlmokP",
+            "quest": 3,
+            "turn": 2
+        },
+        "30": {
+            "player": "player-1",
+            "msg": "if this quest fails, which is likely again as we still don't know much, what do we actually learn?",
+            "mid": "vmmg4rphOLg8",
+            "quest": 3,
+            "turn": 2
+        },
+        "31": {
+            "player": "player-1",
+            "msg": "probably that player-5 is likely good?",
+            "mid": "LAAgywEuYGZO",
+            "quest": 3,
+            "turn": 2
+        },
+        "32": {
+            "player": "player-1",
+            "msg": "i don't know",
+            "mid": "m77w4gKS63Em",
+            "quest": 3,
+            "turn": 2
+        },
+        "33": {
+            "player": "player-2",
+            "msg": "as people tend to pretend in the first round, selecting both player-4 and player-3 might not be a 100 safe choice.",
+            "mid": "rgg04ojsmon4",
+            "quest": 3,
+            "turn": 3
+        },
+        "34": {
+            "player": "player-2",
+            "msg": "anyways, i don't know any more either.",
+            "mid": "YVV6P90hL1Z3",
+            "quest": 3,
+            "turn": 3
+        },
+        "35": {
+            "player": "player-2",
+            "msg": "but i'm good. please take me, otherwise this quest will fail.",
+            "mid": "B11g0Yqt7rJyP",
+            "quest": 3,
+            "turn": 3
+        },
+        "36": {
+            "player": "player-3",
+            "msg": "the point is that, we don't have a 100 safe choice right now",
+            "mid": "7DD6Kq1IB9JE",
+            "quest": 3,
+            "turn": 4
+        },
+        "37": {
+            "player": "player-3",
+            "msg": "i agree that if this quest fails, we still don't know much.",
+            "mid": "0AAgzjxHgZy0",
+            "quest": 3,
+            "turn": 4
+        },
+        "38": {
+            "player": "player-3",
+            "msg": "but i can't think of a better strategy. i'll still vote yes for the party",
+            "mid": "LAAgypJcYWE6",
+            "quest": 3,
+            "turn": 4
+        },
+        "39": {
+            "player": "player-4",
+            "msg": "i can't think of a better choice that gives us more information. if this one fails we know that player-5 is likely good, and that's to some extent useful. i will approve this proposal",
+            "mid": "l88O4o4SkkgO",
+            "quest": 3,
+            "turn": 5
+        },
+        "40": {
+            "player": "player-4",
+            "msg": "selecting player-3 and me is not 100 safe but is more likely safe. note that player-5 inserted himself. this is different from if he was randomly selected by other people",
+            "mid": "oAAY4zQtrqKP8",
+            "quest": 3,
+            "turn": 5
+        },
+        "41": {
+            "player": "player-5",
+            "msg": "this is a dangerous situation now.",
+            "mid": "0AAgzZKt97gB",
+            "quest": 3,
+            "turn": 6
+        },
+        "42": {
+            "player": "player-5",
+            "msg": "i know i am good, so either player-4 or player-3 are bad and the next quest will fail.",
+            "mid": "OJJ7BKYC2gGX",
+            "quest": 3,
+            "turn": 6
+        },
+        "43": {
+            "player": "player-5",
+            "msg": "if it fails, then what do we know? we don't know which one of them is bad, leaving us with a 50/ 50 guess",
+            "mid": "KAAOxDVt21o9D",
+            "quest": 3,
+            "turn": 6
+        },
+        "44": {
+            "player": "player-5",
+            "msg": "and on top of that, the second bad guy may be one of the others",
+            "mid": "xooG4gDh1Lvk8",
+            "quest": 3,
+            "turn": 6
+        },
+        "45": {
+            "player": "player-5",
+            "msg": "i will reject this party because i think if it goes through there's really not much chance of winning after that, other than sheer luck",
+            "mid": "8XXqLJ3t67R92",
+            "quest": 3,
+            "turn": 6
+        },
+        "46": {
+            "player": "player-6",
+            "msg": "i find player-4 comment that player-5 inserted himself to be rather unnecessary",
+            "mid": "LAAgyqLcRlB9z",
+            "quest": 3,
+            "turn": 7
+        },
+        "47": {
+            "player": "player-6",
+            "msg": "anybody would include themselves in the party as there is no reason not to otherwise",
+            "mid": "XYY6OEltX5ER3",
+            "quest": 3,
+            "turn": 7
+        },
+        "48": {
+            "player": "player-6",
+            "msg": "seems like he is trying something subtle here",
+            "mid": "p99g50ysnomYZ",
+            "quest": 3,
+            "turn": 7
+        },
+        "49": {
+            "player": "player-6",
+            "msg": "i will remove him in favour of player-5",
+            "mid": "nGGZ4KQfD0ZE",
+            "quest": 3,
+            "turn": 7
+        },
+        "50": {
+            "player": "system",
+            "msg": "player-6 proposed a party: player-6, player-3, player-1, player-5",
+            "mid": "none",
+            "quest": 3,
+            "turn": 7
+        },
+        "51": {
+            "player": "system",
+            "msg": "party vote outcome: player-1: yes, player-2: yes, player-3: no, player-4: no, player-5: yes, player-6: yes",
+            "mid": "1VVjARDCjBo",
+            "quest": 3,
+            "turn": 7
+        },
+        "52": {
+            "player": "system",
+            "msg": "vote succeeded! initiating quest vote!",
+            "mid": "P661D48tv4NY",
+            "quest": 3,
+            "turn": 7
+        },
+        "53": {
+            "player": "system",
+            "msg": "quest failed!",
+            "mid": "1VVjARoTM9pm",
+            "quest": 3,
+            "turn": 7
+        },
+        "54": {
+            "player": "player-1",
+            "msg": "statistical speaking, it was somewhat likely that this will fail",
+            "mid": "3YYlDW7uGzzP",
+            "quest": 4,
+            "turn": 1
+        },
+        "55": {
+            "player": "player-1",
+            "msg": "player-5 made good points about what we would be learning",
+            "mid": "zqqmjMlCMmOoX",
+            "quest": 4,
+            "turn": 1
+        },
+        "56": {
+            "player": "player-1",
+            "msg": "i am good myself and i only need tow other people",
+            "mid": "ZZZ4Q7BuM730L",
+            "quest": 4,
+            "turn": 1
+        },
+        "57": {
+            "player": "player-1",
+            "msg": "given that a quest with player-3 and player-5 failed twice now, i am suspicious, but again, player-5 made good points",
+            "mid": "6YY6JP9UrWpN5",
+            "quest": 4,
+            "turn": 1
+        },
+        "58": {
+            "player": "player-1",
+            "msg": "sure, player-6 could be bad too, but the quest failed here despite player-4 not being on it",
+            "mid": "P661DBLCjKEA",
+            "quest": 4,
+            "turn": 1
+        },
+        "59": {
+            "player": "player-1",
+            "msg": "so my assumption right now is that player-6 and player-3 are evil",
+            "mid": "B11g0wVIVWvMK",
+            "quest": 4,
+            "turn": 1
+        },
+        "60": {
+            "player": "player-1",
+            "msg": "and player-2 is good just by the numbers",
+            "mid": "EKKloYOuOrK7",
+            "quest": 4,
+            "turn": 1
+        },
+        "61": {
+            "player": "player-1",
+            "msg": "so i think i will take her instead of player-5 actually",
+            "mid": "DwwRnXos56lVk",
+            "quest": 4,
+            "turn": 1
+        },
+        "62": {
+            "player": "player-1",
+            "msg": "i am rambling",
+            "mid": "oAAY43WTrK38",
+            "quest": 4,
+            "turn": 1
+        },
+        "63": {
+            "player": "player-1",
+            "msg": "let's go",
+            "mid": "R88gGpycZjY",
+            "quest": 4,
+            "turn": 1
+        },
+        "64": {
+            "player": "system",
+            "msg": "player-1 proposed a party: player-1, player-4, player-2",
+            "mid": "none",
+            "quest": 4,
+            "turn": 1
+        },
+        "65": {
+            "player": "player-3",
+            "msg": "given the current status of the game, we can't afford one more failure.",
+            "mid": "P661DP3UK9xJk",
+            "quest": 4,
+            "turn": 2
+        },
+        "66": {
+            "player": "player-3",
+            "msg": "so i'd like to reveal myself. i am percival, and either player-2 or player-4 is merlin or morgana.",
+            "mid": "k6654zVUB10B",
+            "quest": 4,
+            "turn": 2
+        },
+        "67": {
+            "player": "player-3",
+            "msg": "i tend to believe player-4 instead of player-2 at the moment, but i'm not 100 sure.",
+            "mid": "P661D2WT8OB2",
+            "quest": 4,
+            "turn": 2
+        },
+        "68": {
+            "player": "player-3",
+            "msg": "currently speaking, player-5 is suspicious. i won't approve any party with player-5 and player-2 for this turn.",
+            "mid": "JEEZwGrs1WlG",
+            "quest": 4,
+            "turn": 2
+        },
+        "69": {
+            "player": "player-4",
+            "msg": "since percival revealed herself i guess i have no choice but to reveal myself as merlin???!!!",
+            "mid": "g775oYqsAqXkY",
+            "quest": 4,
+            "turn": 3
+        },
+        "70": {
+            "player": "player-4",
+            "msg": "we lost:)",
+            "mid": "m77wxRvUR2K4",
+            "quest": 4,
+            "turn": 3
+        },
+        "71": {
+            "player": "player-4",
+            "msg": "great; but it's true that we cannot afford one more failure",
+            "mid": "rgg0Dkoh7Ary",
+            "quest": 4,
+            "turn": 3
+        },
+        "72": {
+            "player": "player-4",
+            "msg": "player-1 player-6 replaced me in favor of player-5 because others have suggested doing so. it does not necessarily mean that he is evil",
+            "mid": "KAAOqOyc2PnP7",
+            "quest": 4,
+            "turn": 3
+        },
+        "73": {
+            "player": "player-4",
+            "msg": "player-5 and player-3 probably should be excluded( but i don't think player-3 could still be bad after revealing herself...)",
+            "mid": "LAAgr8WCROBvG",
+            "quest": 4,
+            "turn": 3
+        },
+        "74": {
+            "player": "player-4",
+            "msg": "i tend to believe that player-6 is good, so player-6, player-1 and me is a better choice",
+            "mid": "g775oLBcAXYnY",
+            "quest": 4,
+            "turn": 3
+        },
+        "75": {
+            "player": "player-5",
+            "msg": "i'll be honest i'm not sure i'm following the whole merlin/ percival logic?",
+            "mid": "A88nZN2cGZw4",
+            "quest": 4,
+            "turn": 4
+        },
+        "76": {
+            "player": "player-5",
+            "msg": "regardless it's not looking good. the last 2 votes failed with me on so it doesn't look great, i agree.",
+            "mid": "p99gAk8FnGQ6A",
+            "quest": 4,
+            "turn": 4
+        },
+        "77": {
+            "player": "player-5",
+            "msg": "ultimately i will need to be on the party if this round passes though, because i am good.",
+            "mid": "xooGM2Lc9vJX",
+            "quest": 4,
+            "turn": 4
+        },
+        "78": {
+            "player": "player-5",
+            "msg": "i'm not sure why you trust player-4 suddenly though?",
+            "mid": "wnnjLKvhLgp2A",
+            "quest": 4,
+            "turn": 4
+        },
+        "79": {
+            "player": "player-5",
+            "msg": "on top of accusing me at first, there's also some weird merlin/ morgana thing going on?",
+            "mid": "k665vrqCnZnnP",
+            "quest": 4,
+            "turn": 4
+        },
+        "80": {
+            "player": "player-5",
+            "msg": "they're like 50 chance of being bad now right?",
+            "mid": "l88Ow2AS26Xm",
+            "quest": 4,
+            "turn": 4
+        },
+        "81": {
+            "player": "player-5",
+            "msg": "they're either merlin or morgana if we believe player-3.",
+            "mid": "JEEZpQ8Fp5Xk",
+            "quest": 4,
+            "turn": 4
+        },
+        "82": {
+            "player": "player-5",
+            "msg": "so why would we include them?",
+            "mid": "OJJ7x85HAzjZB",
+            "quest": 4,
+            "turn": 4
+        },
+        "83": {
+            "player": "player-5",
+            "msg": "i won't vote for this party.",
+            "mid": "ZZZ4M09c5MylL",
+            "quest": 4,
+            "turn": 4
+        },
+        "84": {
+            "player": "player-6",
+            "msg": "for now i won't vote for any party that doesn't have me in it",
+            "mid": "g775okZsK5A5",
+            "quest": 4,
+            "turn": 5
+        },
+        "85": {
+            "player": "player-6",
+            "msg": "since we are doing role reveals",
+            "mid": "7DD6ZAnCYX3w",
+            "quest": 4,
+            "turn": 5
+        },
+        "86": {
+            "player": "player-6",
+            "msg": "i am servant 2",
+            "mid": "4WW8Z9VcBnWyK",
+            "quest": 4,
+            "turn": 5
+        },
+        "87": {
+            "player": "player-1",
+            "msg": "so there is way too much on the line to vote right now",
+            "mid": "6YY610EhrmXON",
+            "quest": 4,
+            "turn": 6
+        },
+        "88": {
+            "player": "player-1",
+            "msg": "i will have one more round of discussion before starting a vote",
+            "mid": "jAA2rnxC250m",
+            "quest": 4,
+            "turn": 6
+        },
+        "89": {
+            "player": "player-1",
+            "msg": "however, regarding player-5's point, we don't need every good person as we only need 3/ 4 good people right now",
+            "mid": "OJJ7xE1TNGxj",
+            "quest": 4,
+            "turn": 6
+        },
+        "90": {
+            "player": "player-1",
+            "msg": "i don't trust any of this merlin/ percival madness going on",
+            "mid": "DwwRjw8uBDM02",
+            "quest": 4,
+            "turn": 6
+        },
+        "91": {
+            "player": "player-1",
+            "msg": "if player-4 is really merlin, then he should not be guessing. he's accusing and defending player-5 in the same turn",
+            "mid": "5AA8ZAvhZG2AW",
+            "quest": 4,
+            "turn": 6
+        },
+        "92": {
+            "player": "player-1",
+            "msg": "for the first and second quest, i just trusted player-4 because the request quest failed and we took of player-4, so the bad people were still on the quest",
+            "mid": "p99gAXnUQwwB",
+            "quest": 4,
+            "turn": 6
+        },
+        "93": {
+            "player": "player-1",
+            "msg": "we also haven't heard from player-2 yet",
+            "mid": "WWWnJjJijAPOY",
+            "quest": 4,
+            "turn": 6
+        },
+        "94": {
+            "player": "system",
+            "msg": "player-1 proposed a party: player-1, player-6, player-4",
+            "mid": "none",
+            "quest": 4,
+            "turn": 6
+        },
+        "95": {
+            "player": "player-1",
+            "msg": "i am not sure about anyone anymore though, so please make your arguments for/ against people",
+            "mid": "6YY612ycGV5E",
+            "quest": 4,
+            "turn": 6
+        },
+        "96": {
+            "player": "player-2",
+            "msg": "sorry i ended my turn by accident in the last round.",
+            "mid": "7DD6ZY6hZLPq",
+            "quest": 4,
+            "turn": 7
+        },
+        "97": {
+            "player": "player-2",
+            "msg": "i'm so confused now. i'm servant 2.",
+            "mid": "p99gAB5cVjjm",
+            "quest": 4,
+            "turn": 7
+        },
+        "98": {
+            "player": "player-2",
+            "msg": "now i don't believe player-3 and player-6.",
+            "mid": "EKKlkW6SWoYOE",
+            "quest": 4,
+            "turn": 7
+        },
+        "99": {
+            "player": "player-2",
+            "msg": "but i tend to believe player-4 is merlin.",
+            "mid": "vmmg0LpsWE75",
+            "quest": 4,
+            "turn": 7
+        },
+        "100": {
+            "player": "player-2",
+            "msg": "the choice and argument he made all make sense.",
+            "mid": "GwwZmKZS13r90",
+            "quest": 4,
+            "turn": 7
+        },
+        "101": {
+            "player": "player-2",
+            "msg": "but i don't think player-6 is good.",
+            "mid": "9338ZXBCk5pPZ",
+            "quest": 4,
+            "turn": 7
+        },
+        "102": {
+            "player": "player-2",
+            "msg": "the quest he proposed failed as well.",
+            "mid": "g775oXqswl9V",
+            "quest": 4,
+            "turn": 7
+        },
+        "103": {
+            "player": "player-2",
+            "msg": "i suggest replacing player-6 with me.",
+            "mid": "0AAgZoYT1m3Y",
+            "quest": 4,
+            "turn": 7
+        },
+        "104": {
+            "player": "player-3",
+            "msg": "well, if player-2 believes player-4 is merlin, i don't understand why she doesn't believe me.",
+            "mid": "B11gZvnClrN6",
+            "quest": 4,
+            "turn": 8
+        },
+        "105": {
+            "player": "player-3",
+            "msg": "she is apparently the morgana to me right now",
+            "mid": "LAAgrGNczkRO",
+            "quest": 4,
+            "turn": 8
+        },
+        "106": {
+            "player": "player-3",
+            "msg": "i'll vote for this party because it will succeed for sure",
+            "mid": "QAA1zm5ckZXYl",
+            "quest": 4,
+            "turn": 8
+        },
+        "107": {
+            "player": "player-4",
+            "msg": "may i be the true merlin or not, player-3 is unlikely bad because she was either trying to protect the real merlin or making a mistake...",
+            "mid": "XYY6K2ptkQAx",
+            "quest": 4,
+            "turn": 9
+        },
+        "108": {
+            "player": "player-4",
+            "msg": "if you believe i am merlin i say player-2 is evil",
+            "mid": "M77jvxvUqxzKX",
+            "quest": 4,
+            "turn": 9
+        },
+        "109": {
+            "player": "player-4",
+            "msg": "up to you",
+            "mid": "ZZZ4MNPcQyDn",
+            "quest": 4,
+            "turn": 9
+        },
+        "110": {
+            "player": "player-5",
+            "msg": "i am so confused by things right now.",
+            "mid": "B11gZm6Slo",
+            "quest": 4,
+            "turn": 10
+        },
+        "111": {
+            "player": "player-5",
+            "msg": "first: player-3 could be morgana herself trying to throw things off.",
+            "mid": "OJJ7xDOhwqYM",
+            "quest": 4,
+            "turn": 10
+        },
+        "112": {
+            "player": "player-5",
+            "msg": "second: player-4 seems suspicious either way, so if we don't have to include them now i don't see why we should",
+            "mid": "oAAYzg0snEL",
+            "quest": 4,
+            "turn": 10
+        },
+        "113": {
+            "player": "player-5",
+            "msg": "i don't really have much to go off for player-6, player-1, or player-2",
+            "mid": "0AAgZrJunRR",
+            "quest": 4,
+            "turn": 10
+        },
+        "114": {
+            "player": "player-5",
+            "msg": "from my viewpoint, both player-3 and player-4 are most suspicious right now",
+            "mid": "EKKlkLxUjVjl",
+            "quest": 4,
+            "turn": 10
+        },
+        "115": {
+            "player": "player-5",
+            "msg": "so i would not accept a party with them in it",
+            "mid": "3YYl8mVuppJQk",
+            "quest": 4,
+            "turn": 10
+        },
+        "116": {
+            "player": "player-6",
+            "msg": "i now know for sure that player-2 is evil",
+            "mid": "ZZZ4ME7UMODN",
+            "quest": 4,
+            "turn": 11
+        },
+        "117": {
+            "player": "player-6",
+            "msg": "please believe that i am servant 2. think about it. if i was lying, would i even remember the 2 behind the servant?",
+            "mid": "DwwRjOgC40JY",
+            "quest": 4,
+            "turn": 11
+        },
+        "118": {
+            "player": "player-6",
+            "msg": "a player that is playing as morgana/ assassin will not be able to remember that",
+            "mid": "zqqmODmIGN3Z",
+            "quest": 4,
+            "turn": 11
+        },
+        "119": {
+            "player": "player-6",
+            "msg": "i am the real deal",
+            "mid": "EKKlkE0SxqPp",
+            "quest": 4,
+            "turn": 11
+        },
+        "120": {
+            "player": "player-6",
+            "msg": "because i am literally reading off my role trust me",
+            "mid": "nGGZy0PiGVmL",
+            "quest": 4,
+            "turn": 11
+        },
+        "121": {
+            "player": "player-1",
+            "msg": "i think",
+            "mid": "B11gZJMt7Qq7k",
+            "quest": 4,
+            "turn": 12
+        },
+        "122": {
+            "player": "player-1",
+            "msg": "thus i am",
+            "mid": "wnnjLDDcLonZ9",
+            "quest": 4,
+            "turn": 12
+        },
+        "123": {
+            "player": "player-1",
+            "msg": "( partially think i guess)",
+            "mid": "5AA8ZGnHpm3V",
+            "quest": 4,
+            "turn": 12
+        },
+        "124": {
+            "player": "player-1",
+            "msg": "either way",
+            "mid": "GwwZmq6iJ3OAy",
+            "quest": 4,
+            "turn": 12
+        },
+        "125": {
+            "player": "player-1",
+            "msg": "this is all very difficult",
+            "mid": "2GGRZB1IZvJm",
+            "quest": 4,
+            "turn": 12
+        },
+        "126": {
+            "player": "player-1",
+            "msg": "player-3's and player-4's story make sense taken out of context",
+            "mid": "DwwRjnOcYww",
+            "quest": 4,
+            "turn": 12
+        },
+        "127": {
+            "player": "player-1",
+            "msg": "that would mean player-5 and player-2 are the bad people, if they are to be trusted",
+            "mid": "VJJmGG0ilnPxn",
+            "quest": 4,
+            "turn": 12
+        },
+        "128": {
+            "player": "player-1",
+            "msg": "because i am good for sure",
+            "mid": "8XXqZZ7tlxR",
+            "quest": 4,
+            "turn": 12
+        },
+        "129": {
+            "player": "player-1",
+            "msg": "but then quest 3 would have succeeded",
+            "mid": "ypp8NNvcQN1m",
+            "quest": 4,
+            "turn": 12
+        },
+        "130": {
+            "player": "player-1",
+            "msg": "so something is off",
+            "mid": "rgg0DDGi7W7n",
+            "quest": 4,
+            "turn": 12
+        },
+        "131": {
+            "player": "system",
+            "msg": "player-1 proposed a party: player-1, player-5, player-3",
+            "mid": "none",
+            "quest": 4,
+            "turn": 12
+        },
+        "132": {
+            "player": "player-1",
+            "msg": "this is my best guess now and i will start a vote for it",
+            "mid": "XYY6KWDsXYzw9",
+            "quest": 4,
+            "turn": 12
+        },
+        "133": {
+            "player": "player-1",
+            "msg": "we only need 3 good people",
+            "mid": "VJJmGRNTxO2wA",
+            "quest": 4,
+            "turn": 12
+        },
+        "134": {
+            "player": "player-1",
+            "msg": "and suspicion is everywhere",
+            "mid": "8XXqZVWfjlW58",
+            "quest": 4,
+            "turn": 12
+        },
+        "135": {
+            "player": "system",
+            "msg": "party vote outcome: player-1: yes, player-2: yes, player-3: no, player-4: no, player-5: yes, player-6: no",
+            "mid": "8XXqZV4FllD8",
+            "quest": 4,
+            "turn": 12
+        },
+        "136": {
+            "player": "system",
+            "msg": "vote failed!",
+            "mid": "jAA2r1DfjGy4",
+            "quest": 4,
+            "turn": 12
+        },
+        "137": {
+            "player": "system",
+            "msg": "player-2 proposed a party: player-1, player-5, player-4",
+            "mid": "none",
+            "quest": 4,
+            "turn": 12
+        },
+        "138": {
+            "player": "player-2",
+            "msg": "ok as we only need three good people. i'll exclude myself and choose three i trust.",
+            "mid": "XYY6K4Run7QJQ",
+            "quest": 4,
+            "turn": 13
+        },
+        "139": {
+            "player": "player-3",
+            "msg": "there's no reason for player-2 to exclude herself if she is good",
+            "mid": "KAAOq3YFqYMV",
+            "quest": 4,
+            "turn": 14
+        },
+        "140": {
+            "player": "player-3",
+            "msg": "but she wants the evil to win",
+            "mid": "k665vq0hknGL",
+            "quest": 4,
+            "turn": 14
+        },
+        "141": {
+            "player": "player-3",
+            "msg": "i can see player-5 is bad. i think player-1 agrees with me in the last round, so i don't understand why he put player-5 in the party",
+            "mid": "rgg0DzVhYAV",
+            "quest": 4,
+            "turn": 14
+        },
+        "142": {
+            "player": "player-3",
+            "msg": "again, i'll disapprove any party with player-2 and player-5.",
+            "mid": "XYY6KNvSnVAz2",
+            "quest": 4,
+            "turn": 14
+        },
+        "143": {
+            "player": "player-4",
+            "msg": "as we are already playing it dangerously, i'd like to make the claim that player-3 is the true merlin",
+            "mid": "XYY6KyKUkOP2",
+            "quest": 4,
+            "turn": 15
+        },
+        "144": {
+            "player": "player-4",
+            "msg": "note that player-2 picked a team without herself but with player-5, and player-5 picked a team without himself but with player-2",
+            "mid": "6YY61nGTnABp",
+            "quest": 4,
+            "turn": 15
+        },
+        "145": {
+            "player": "player-4",
+            "msg": "this is their best strategy at this point",
+            "mid": "YVV6Ljksg7Oo",
+            "quest": 4,
+            "turn": 15
+        },
+        "146": {
+            "player": "player-4",
+            "msg": "there is no strong proof against player-1 and player-6",
+            "mid": "g775ovkhPqQ",
+            "quest": 4,
+            "turn": 15
+        },
+        "147": {
+            "player": "player-5",
+            "msg": "i never proposed a party with player-2 at any time. that is factually incorrect, you can look through the chat",
+            "mid": "g775ovqu3AKX",
+            "quest": 4,
+            "turn": 16
+        },
+        "148": {
+            "player": "player-5",
+            "msg": "if anything i have been the most consistent one. i've literally been suspicious of player-3 and player-4 since the second round and have never voiced otherwise",
+            "mid": "VJJmG1gf22MV",
+            "quest": 4,
+            "turn": 16
+        },
+        "149": {
+            "player": "player-5",
+            "msg": "the rest of this madness is coming from them, yet somehow their stories make sense out of context? like what?",
+            "mid": "9338ZxBUm98p",
+            "quest": 4,
+            "turn": 16
+        },
+        "150": {
+            "player": "player-5",
+            "msg": "so i'm not sure what to say at this point other than i am strongly suspicious of player-4 and player-3. player-2 is also saying some really questionable things, so i also don't trust her.",
+            "mid": "DwwRjpxtM9pn",
+            "quest": 4,
+            "turn": 16
+        },
+        "151": {
+            "player": "player-5",
+            "msg": "i don't have enough evidence to know what to think about player-6 or player-1, so i guess i trust them the most at the moment.",
+            "mid": "jAA2r7oS0rQ4",
+            "quest": 4,
+            "turn": 16
+        },
+        "152": {
+            "player": "player-5",
+            "msg": "i would propose a party with us 3.",
+            "mid": "7DD6ZNjc2RvB",
+            "quest": 4,
+            "turn": 16
+        },
+        "153": {
+            "player": "player-5",
+            "msg": "if that fails we're done either way in my opinion.",
+            "mid": "4WW8Om8CJmW4X",
+            "quest": 4,
+            "turn": 16
+        },
+        "154": {
+            "player": "player-6",
+            "msg": "player-5 has been with too many quests that failed",
+            "mid": "OJJ7Kl2sp2J9K",
+            "quest": 4,
+            "turn": 17
+        },
+        "155": {
+            "player": "player-6",
+            "msg": "so no way he is playing again",
+            "mid": "1VVjL1OHErk5",
+            "quest": 4,
+            "turn": 17
+        },
+        "156": {
+            "player": "player-6",
+            "msg": "either way i know for sure player-2 is bad since i am the real servant 2",
+            "mid": "nGGZ1QnuAnpj",
+            "quest": 4,
+            "turn": 17
+        },
+        "157": {
+            "player": "player-6",
+            "msg": "and as a measly servant with no information, i will never approve a team without me",
+            "mid": "N77xJkmuX9r5",
+            "quest": 4,
+            "turn": 17
+        },
+        "158": {
+            "player": "player-1",
+            "msg": "ok, i looked at the party proposals and quest outcomes",
+            "mid": "DwwRvRWf5Q8Z9",
+            "quest": 4,
+            "turn": 18
+        },
+        "159": {
+            "player": "player-1",
+            "msg": "i misremembered who was on quest 3, thus my confusion",
+            "mid": "7DD6R6rT2Gy",
+            "quest": 4,
+            "turn": 18
+        },
+        "160": {
+            "player": "player-1",
+            "msg": "i am now convinced player-5 and player-2 are the evils",
+            "mid": "P661L1nhOpEN",
+            "quest": 4,
+            "turn": 18
+        },
+        "161": {
+            "player": "player-1",
+            "msg": "mice drop",
+            "mid": "M77jGjOIqnPwY",
+            "quest": 4,
+            "turn": 18
+        },
+        "162": {
+            "player": "system",
+            "msg": "player-2 proposed a party: player-6, player-3, player-4",
+            "mid": "none",
+            "quest": 4,
+            "turn": 18
+        },
+        "163": {
+            "player": "player-2",
+            "msg": "it's assassin's show time;)",
+            "mid": "oAAY1Vju8yGr",
+            "quest": 4,
+            "turn": 19
+        },
+        "164": {
+            "player": "system",
+            "msg": "party vote outcome: player-1: yes, player-2: yes, player-3: yes, player-4: yes, player-5: no, player-6: yes",
+            "mid": "vmmg1lVTWvqMA",
+            "quest": 4,
+            "turn": 19
+        },
+        "165": {
+            "player": "system",
+            "msg": "vote succeeded! initiating quest vote!",
+            "mid": "ZZZ41YjcMyY5j",
+            "quest": 4,
+            "turn": 19
+        },
+        "166": {
+            "player": "system",
+            "msg": "quest succeeded!",
+            "mid": "7DD6R1liAnrll",
+            "quest": 4,
+            "turn": 19
+        },
+        "167": {
+            "player": "system",
+            "msg": "player-3 proposed a party: player-1, player-6, player-3, player-4",
+            "mid": "none",
+            "quest": 5,
+            "turn": 0
+        },
+        "168": {
+            "player": "player-3",
+            "msg": "let's go:)",
+            "mid": "wnnj10ZcGG2rm",
+            "quest": 5,
+            "turn": 1
+        },
+        "169": {
+            "player": "player-4",
+            "msg": "let's go:)",
+            "mid": "oAAY1Z0FV0Rv",
+            "quest": 5,
+            "turn": 2
+        },
+        "170": {
+            "player": "player-5",
+            "msg": "your funeral.",
+            "mid": "EKKlwq4UW0wVy",
+            "quest": 5,
+            "turn": 3
+        },
+        "171": {
+            "player": "player-6",
+            "msg": "servant 2 signing out",
+            "mid": "XYY6WrrhBQqB",
+            "quest": 5,
+            "turn": 4
+        },
+        "172": {
+            "player": "player-1",
+            "msg": "one more party for us!",
+            "mid": "g7750njuPGv",
+            "quest": 5,
+            "turn": 5
+        },
+        "173": {
+            "player": "player-1",
+            "msg": "and then merlin goes away:(",
+            "mid": "k6651rJuN2pV",
+            "quest": 5,
+            "turn": 5
+        },
+        "174": {
+            "player": "player-1",
+            "msg": "if you find him",
+            "mid": "R88gN1Ysv5nNn",
+            "quest": 5,
+            "turn": 5
+        },
+        "175": {
+            "player": "system",
+            "msg": "party vote outcome: player-1: yes, player-2: yes, player-3: yes, player-4: yes, player-5: no, player-6: yes",
+            "mid": "M77jG1XSqv1p0",
+            "quest": 5,
+            "turn": 5
+        },
+        "176": {
+            "player": "system",
+            "msg": "vote succeeded! initiating quest vote!",
+            "mid": "rgg019pt8xxDn",
+            "quest": 5,
+            "turn": 5
+        },
+        "177": {
+            "player": "system",
+            "msg": "quest succeeded!",
+            "mid": "7DD6RX7tmPRLJ",
+            "quest": 5,
+            "turn": 5
+        },
+        "178": {
+            "player": "system",
+            "msg": "good won for now, but the assassin...",
+            "mid": "3YYlNw0TWgnQ",
+            "quest": 6,
+            "turn": 0
+        },
+        "179": {
+            "player": "system",
+            "msg": "the assassin identified merlin, thus evil wins!",
+            "mid": "QAA1M7zsgX8L",
+            "quest": 6,
+            "turn": 0
+        }
+    },
+    "beliefs": {
+        "1": {
+            "player": "player-5",
+            "about_player": "player-6",
+            "belief": "merlin",
+            "quest": 3,
+            "turn": 2
+        },
+        "2": {
+            "player": "player-6",
+            "about_player": "player-1",
+            "belief": "merlin",
+            "quest": 3,
+            "turn": 3
+        },
+        "3": {
+            "player": "player-6",
+            "about_player": "player-3",
+            "belief": "assassin",
+            "quest": 3,
+            "turn": 5
+        },
+        "4": {
+            "player": "player-6",
+            "about_player": "player-5",
+            "belief": "assassin",
+            "quest": 4,
+            "turn": 1
+        },
+        "5": {
+            "player": "player-6",
+            "about_player": "player-5",
+            "belief": "servant",
+            "quest": 4,
+            "turn": 1
+        },
+        "6": {
+            "player": "player-6",
+            "about_player": "player-1",
+            "belief": "servant",
+            "quest": 4,
+            "turn": 1
+        },
+        "7": {
+            "player": "player-6",
+            "about_player": "player-1",
+            "belief": "assassin",
+            "quest": 4,
+            "turn": 1
+        },
+        "8": {
+            "player": "player-6",
+            "about_player": "player-1",
+            "belief": "morgana",
+            "quest": 4,
+            "turn": 1
+        },
+        "9": {
+            "player": "player-6",
+            "about_player": "player-5",
+            "belief": "assassin",
+            "quest": 4,
+            "turn": 2
+        },
+        "10": {
+            "player": "player-5",
+            "about_player": "player-4",
+            "belief": "merlin",
+            "quest": 4,
+            "turn": 3
+        },
+        "11": {
+            "player": "player-3",
+            "about_player": "player-4",
+            "belief": "merlin",
+            "quest": 4,
+            "turn": 4
+        },
+        "12": {
+            "player": "player-3",
+            "about_player": "player-2",
+            "belief": "morgana",
+            "quest": 4,
+            "turn": 4
+        },
+        "13": {
+            "player": "player-5",
+            "about_player": "player-6",
+            "belief": "undecided",
+            "quest": 4,
+            "turn": 4
+        },
+        "14": {
+            "player": "player-3",
+            "about_player": "player-5",
+            "belief": "assassin",
+            "quest": 4,
+            "turn": 4
+        },
+        "15": {
+            "player": "player-5",
+            "about_player": "player-3",
+            "belief": "merlin",
+            "quest": 4,
+            "turn": 4
+        },
+        "16": {
+            "player": "player-6",
+            "about_player": "player-2",
+            "belief": "morgana",
+            "quest": 4,
+            "turn": 8
+        },
+        "17": {
+            "player": "player-6",
+            "about_player": "player-4",
+            "belief": "merlin",
+            "quest": 4,
+            "turn": 8
+        },
+        "18": {
+            "player": "player-6",
+            "about_player": "player-3",
+            "belief": "percival",
+            "quest": 4,
+            "turn": 8
+        },
+        "19": {
+            "player": "player-6",
+            "about_player": "player-1",
+            "belief": "servant",
+            "quest": 4,
+            "turn": 8
+        },
+        "20": {
+            "player": "player-5",
+            "about_player": "player-3",
+            "belief": "percival",
+            "quest": 4,
+            "turn": 10
+        },
+        "21": {
+            "player": "player-3",
+            "about_player": "player-6",
+            "belief": "servant",
+            "quest": 4,
+            "turn": 13
+        },
+        "22": {
+            "player": "player-3",
+            "about_player": "player-1",
+            "belief": "servant",
+            "quest": 5,
+            "turn": 4
+        }
+    },
+    "persuasion": {
+        "1": {
+            "mid": "jAA24vGhj4LNQ",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "2": {
+            "mid": "VJJmMJVTmMDD",
+            "persuasion": "agreement",
+            "deception": "omission"
+        },
+        "3": {
+            "mid": "DwwRnwpIYJYA",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "4": {
+            "mid": "ZZZ4QmWI5Nr0B",
+            "persuasion": "compromise/concession",
+            "deception": null
+        },
+        "5": {
+            "mid": "p99g57ofnWMGn",
+            "persuasion": "agreement",
+            "deception": null
+        },
+        "6": {
+            "mid": "vmmg4LVT7X4QQ",
+            "persuasion": "agreement",
+            "deception": null
+        },
+        "7": {
+            "mid": "jAA24JBHYAEj",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "8": {
+            "mid": "4WW8024SB9xPR",
+            "persuasion": "agreement",
+            "deception": null
+        },
+        "9": {
+            "mid": "vmmg4zAs1DJQ",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "10": {
+            "mid": "YVV6Pn4U393KK",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "11": {
+            "mid": "N77xAREuwLlw",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "12": {
+            "mid": "EKKloByS3WDVn",
+            "persuasion": "compromise/concession",
+            "deception": null
+        },
+        "13": {
+            "mid": "VJJmM9GTlmokP",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "14": {
+            "mid": "vmmg4rphOLg8",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "15": {
+            "mid": "LAAgywEuYGZO",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "16": {
+            "mid": "m77w4gKS63Em",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "17": {
+            "mid": "0AAgzjxHgZy0",
+            "persuasion": "agreement",
+            "deception": null
+        },
+        "18": {
+            "mid": "LAAgypJcYWE6",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "19": {
+            "mid": "7DD6Kq1IB9JE",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "20": {
+            "mid": "LAAgyqLcRlB9z",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "21": {
+            "mid": "XYY6OEltX5ER3",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "22": {
+            "mid": "p99g50ysnomYZ",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "23": {
+            "mid": "nGGZ4KQfD0ZE",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "24": {
+            "mid": "R88gGpycZjY",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "25": {
+            "mid": "3YYlDW7uGzzP",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "26": {
+            "mid": "0AAgzZKt97gB",
+            "persuasion": "assertion",
+            "deception": "commission"
+        },
+        "27": {
+            "mid": "OJJ7BKYC2gGX",
+            "persuasion": "logical deduction",
+            "deception": "commission"
+        },
+        "28": {
+            "mid": "zqqmjMlCMmOoX",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "29": {
+            "mid": "KAAOxDVt21o9D",
+            "persuasion": "logical deduction",
+            "deception": "influence"
+        },
+        "30": {
+            "mid": "xooG4gDh1Lvk8",
+            "persuasion": "logical deduction",
+            "deception": "commission"
+        },
+        "31": {
+            "mid": "ZZZ4Q7BuM730L",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "32": {
+            "mid": "8XXqLJ3t67R92",
+            "persuasion": "suggestion",
+            "deception": "influence"
+        },
+        "33": {
+            "mid": "6YY6JP9UrWpN5",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "34": {
+            "mid": "P661DBLCjKEA",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "35": {
+            "mid": "B11g0wVIVWvMK",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "36": {
+            "mid": "EKKloYOuOrK7",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "37": {
+            "mid": "DwwRnXos56lVk",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "38": {
+            "mid": "oAAY43WTrK38",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "39": {
+            "mid": "M77jzNvt5DoL0",
+            "persuasion": "assertion",
+            "deception": "influence"
+        },
+        "40": {
+            "mid": "1VVjAE2sxOnJ",
+            "persuasion": "suggestion",
+            "deception": "omission"
+        },
+        "41": {
+            "mid": "JEEZwGrs1WlG",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "42": {
+            "mid": "P661DP3UK9xJk",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "43": {
+            "mid": "k6654zVUB10B",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "44": {
+            "mid": "P661D2WT8OB2",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "45": {
+            "mid": "4WW8Z9VcBnWyK",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "46": {
+            "mid": "7DD6ZAnCYX3w",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "47": {
+            "mid": "g775okZsK5A5",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "48": {
+            "mid": "6YY610EhrmXON",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "49": {
+            "mid": "jAA2rnxC250m",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "50": {
+            "mid": "OJJ7xE1TNGxj",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "51": {
+            "mid": "DwwRjw8uBDM02",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "52": {
+            "mid": "5AA8ZAvhZG2AW",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "53": {
+            "mid": "p99gAXnUQwwB",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "54": {
+            "mid": "WWWnJjJijAPOY",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "55": {
+            "mid": "6YY612ycGV5E",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "56": {
+            "mid": "A88nZN2cGZw4",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "57": {
+            "mid": "p99gAk8FnGQ6A",
+            "persuasion": "assertion",
+            "deception": "influence"
+        },
+        "58": {
+            "mid": "xooGM2Lc9vJX",
+            "persuasion": "assertion",
+            "deception": "omission"
+        },
+        "59": {
+            "mid": "wnnjLKvhLgp2A",
+            "persuasion": "questioning",
+            "deception": "influence"
+        },
+        "60": {
+            "mid": "k665vrqCnZnnP",
+            "persuasion": "questioning",
+            "deception": "influence"
+        },
+        "61": {
+            "mid": "l88Ow2AS26Xm",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "62": {
+            "mid": "QAA1zm5ckZXYl",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "63": {
+            "mid": "LAAgrGNczkRO",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "64": {
+            "mid": "B11gZvnClrN6",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "65": {
+            "mid": "JEEZpQ8Fp5Xk",
+            "persuasion": "logical deduction",
+            "deception": "commission"
+        },
+        "66": {
+            "mid": "OJJ7x85HAzjZB",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "67": {
+            "mid": "ZZZ4M09c5MylL",
+            "persuasion": "assertion",
+            "deception": "influence"
+        },
+        "68": {
+            "mid": "ZZZ4ME7UMODN",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "69": {
+            "mid": "DwwRjOgC40JY",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "70": {
+            "mid": "zqqmODmIGN3Z",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "71": {
+            "mid": "EKKlkE0SxqPp",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "72": {
+            "mid": "nGGZy0PiGVmL",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "73": {
+            "mid": "B11gZJMt7Qq7k",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "74": {
+            "mid": "wnnjLDDcLonZ9",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "75": {
+            "mid": "5AA8ZGnHpm3V",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "76": {
+            "mid": "GwwZmq6iJ3OAy",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "77": {
+            "mid": "2GGRZB1IZvJm",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "78": {
+            "mid": "DwwRjnOcYww",
+            "persuasion": "compromise/concession",
+            "deception": null
+        },
+        "79": {
+            "mid": "VJJmGG0ilnPxn",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "80": {
+            "mid": "8XXqZZ7tlxR",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "81": {
+            "mid": "ypp8NNvcQN1m",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "82": {
+            "mid": "rgg0DDGi7W7n",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "83": {
+            "mid": "XYY6KWDsXYzw9",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "84": {
+            "mid": "VJJmGRNTxO2wA",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "85": {
+            "mid": "8XXqZVWfjlW58",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "86": {
+            "mid": "KAAOq3YFqYMV",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "87": {
+            "mid": "k665vq0hknGL",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "88": {
+            "mid": "rgg0DzVhYAV",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "89": {
+            "mid": "XYY6KNvSnVAz2",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "90": {
+            "mid": "B11gZm6Slo",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "91": {
+            "mid": "OJJ7xDOhwqYM",
+            "persuasion": "questioning",
+            "deception": "commission"
+        },
+        "92": {
+            "mid": "oAAYzg0snEL",
+            "persuasion": "critique/opposition",
+            "deception": "commission"
+        },
+        "93": {
+            "mid": "OJJ7Kl2sp2J9K",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "94": {
+            "mid": "1VVjL1OHErk5",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "95": {
+            "mid": "nGGZ1QnuAnpj",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "96": {
+            "mid": "N77xJkmuX9r5",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "97": {
+            "mid": "DwwRvRWf5Q8Z9",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "98": {
+            "mid": "7DD6R6rT2Gy",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "99": {
+            "mid": "P661L1nhOpEN",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "100": {
+            "mid": "M77jGjOIqnPwY",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "101": {
+            "mid": "g775ovqu3AKX",
+            "persuasion": "assertion",
+            "deception": "influence"
+        },
+        "102": {
+            "mid": "VJJmG1gf22MV",
+            "persuasion": "assertion",
+            "deception": "commission"
+        },
+        "103": {
+            "mid": "wnnj10ZcGG2rm",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "104": {
+            "mid": "9338ZxBUm98p",
+            "persuasion": "critique/opposition",
+            "deception": "influence"
+        },
+        "105": {
+            "mid": "EKKlwq4UW0wVy",
+            "persuasion": "appeal/defense",
+            "deception": "influence"
+        },
+        "106": {
+            "mid": "XYY6WrrhBQqB",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "107": {
+            "mid": "DwwRjpxtM9pn",
+            "persuasion": "critique/opposition",
+            "deception": "commission"
+        },
+        "108": {
+            "mid": "jAA2r7oS0rQ4",
+            "persuasion": "assertion",
+            "deception": "omission"
+        },
+        "109": {
+            "mid": "7DD6ZNjc2RvB",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "110": {
+            "mid": "4WW8Om8CJmW4X",
+            "persuasion": "assertion",
+            "deception": "influence"
+        },
+        "111": {
+            "mid": "g7750njuPGv",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "112": {
+            "mid": "k6651rJuN2pV",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "113": {
+            "mid": "R88gN1Ysv5nNn",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "114": {
+            "mid": "1VVjABAt3OqR",
+            "persuasion": "agreement",
+            "deception": "omission"
+        },
+        "115": {
+            "mid": "N77xAp7IAgP2",
+            "persuasion": "appeal/defense",
+            "deception": "commission"
+        },
+        "116": {
+            "mid": "A88nkXvH59MY",
+            "persuasion": "agreement",
+            "deception": "omission"
+        },
+        "117": {
+            "mid": "rgg04ojsmon4",
+            "persuasion": "logical deduction",
+            "deception": "commission"
+        },
+        "118": {
+            "mid": "YVV6P90hL1Z3",
+            "persuasion": "compromise/concession",
+            "deception": "omission"
+        },
+        "119": {
+            "mid": "B11g0Yqt7rJyP",
+            "persuasion": "appeal/defense",
+            "deception": "commission"
+        },
+        "120": {
+            "mid": "l88O4o4SkkgO",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "121": {
+            "mid": "oAAY4zQtrqKP8",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "122": {
+            "mid": "g775oYqsAqXkY",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "123": {
+            "mid": "KAAOqOyc2PnP7",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "124": {
+            "mid": "LAAgr8WCROBvG",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "125": {
+            "mid": "g775oLBcAXYnY",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "126": {
+            "mid": "7DD6ZY6hZLPq",
+            "persuasion": "compromise/concession",
+            "deception": "influence"
+        },
+        "127": {
+            "mid": "p99gAB5cVjjm",
+            "persuasion": "compromise/concession",
+            "deception": "commission"
+        },
+        "128": {
+            "mid": "EKKlkW6SWoYOE",
+            "persuasion": "questioning",
+            "deception": "commission"
+        },
+        "129": {
+            "mid": "vmmg0LpsWE75",
+            "persuasion": "appeal/defense",
+            "deception": "influence"
+        },
+        "130": {
+            "mid": "GwwZmKZS13r90",
+            "persuasion": "agreement",
+            "deception": null
+        },
+        "131": {
+            "mid": "9338ZXBCk5pPZ",
+            "persuasion": "critique/opposition",
+            "deception": "commission"
+        },
+        "132": {
+            "mid": "g775oXqswl9V",
+            "persuasion": "critique/opposition",
+            "deception": "influence"
+        },
+        "133": {
+            "mid": "0AAgZoYT1m3Y",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "134": {
+            "mid": "XYY6K2ptkQAx",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "135": {
+            "mid": "M77jvxvUqxzKX",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "136": {
+            "mid": "0AAgZrJunRR",
+            "persuasion": "compromise/concession",
+            "deception": null
+        },
+        "137": {
+            "mid": "EKKlkLxUjVjl",
+            "persuasion": "critique/opposition",
+            "deception": "commission"
+        },
+        "138": {
+            "mid": "3YYl8mVuppJQk",
+            "persuasion": "critique/opposition",
+            "deception": "commission"
+        },
+        "139": {
+            "mid": "XYY6K4Run7QJQ",
+            "persuasion": "suggestion",
+            "deception": "influence"
+        },
+        "140": {
+            "mid": "XYY6KyKUkOP2",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "141": {
+            "mid": "YVV6Ljksg7Oo",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "142": {
+            "mid": "g775ovkhPqQ",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "143": {
+            "mid": "rgg0Dkoh7Ary",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "144": {
+            "mid": "ZZZ4MNPcQyDn",
+            "persuasion": "compromise/concession",
+            "deception": null
+        },
+        "145": {
+            "mid": "qAAj4ovum1Y8",
+            "persuasion": "compromise/concession",
+            "deception": null
+        },
+        "146": {
+            "mid": "m77wxRvUR2K4",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "147": {
+            "mid": "6YY61nGTnABp",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "148": {
+            "mid": "oAAY1Vju8yGr",
+            "persuasion": "logical deduction",
+            "deception": "influence"
+        },
+        "149": {
+            "mid": "oAAY1Z0FV0Rv",
+            "persuasion": "suggestion",
+            "deception": null
+        }
+    }
+}

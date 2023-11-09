@@ -1,0 +1,944 @@
+{
+    "users": {
+        "1": {
+            "name": "player-1",
+            "role": "servant-1",
+            "index": 1
+        },
+        "2": {
+            "name": "player-2",
+            "role": "assassin",
+            "index": 2
+        },
+        "3": {
+            "name": "player-3",
+            "role": "merlin",
+            "index": 3
+        },
+        "4": {
+            "name": "player-4",
+            "role": "morgana",
+            "index": 4
+        },
+        "5": {
+            "name": "player-5",
+            "role": "servant-2",
+            "index": 5
+        },
+        "6": {
+            "name": "player-6",
+            "role": "percival",
+            "index": 6
+        }
+    },
+    "messages": {
+        "1": {
+            "player": "system",
+            "msg": "game started!",
+            "mid": "jAA8WPoCqk5",
+            "quest": 1,
+            "turn": 1
+        },
+        "2": {
+            "player": "player-1",
+            "msg": "ok, so this is the first round",
+            "mid": "lPW9JoWF288bk",
+            "quest": 1,
+            "turn": 2
+        },
+        "3": {
+            "player": "player-1",
+            "msg": "i dont know a lot at this point, so i am proposing myself, because i am good, of course",
+            "mid": "r9NK8p1s3eXJ",
+            "quest": 1,
+            "turn": 2
+        },
+        "4": {
+            "player": "player-1",
+            "msg": "and i will also add player-2 to the party",
+            "mid": "nMZK8YkceEam",
+            "quest": 1,
+            "turn": 2
+        },
+        "5": {
+            "player": "player-1",
+            "msg": "the reasoning is that i think that if we have an overlap for the following rounds and they keep being successful, we gain a lot of information",
+            "mid": "XzjqV7PtEy7x",
+            "quest": 1,
+            "turn": 2
+        },
+        "6": {
+            "player": "system",
+            "msg": "player-1 proposed a party: player-1, player-2",
+            "mid": "none",
+            "quest": 1,
+            "turn": 2
+        },
+        "7": {
+            "player": "player-2",
+            "msg": "same for me with not a lot of information at this point, but i would be happy to be on the quest.",
+            "mid": "eWx5JPJfmkpp",
+            "quest": 1,
+            "turn": 3
+        },
+        "8": {
+            "player": "player-2",
+            "msg": "and you wont regret it",
+            "mid": "23ZnwqKSr3ML",
+            "quest": 1,
+            "turn": 3
+        },
+        "9": {
+            "player": "player-3",
+            "msg": "i think that i would approve of this party, since we dont have much info at this point.. we wont get a lot out of this round anyways",
+            "mid": "Qz59YOghq6BN",
+            "quest": 1,
+            "turn": 4
+        },
+        "10": {
+            "player": "player-4",
+            "msg": "same with the above three players.",
+            "mid": "JZNgaR5c6bYE",
+            "quest": 1,
+            "turn": 5
+        },
+        "11": {
+            "player": "player-5",
+            "msg": "i am good with this party. do not have much information now.",
+            "mid": "eWx5lZxIRZ1R",
+            "quest": 1,
+            "turn": 6
+        },
+        "12": {
+            "player": "player-6",
+            "msg": "i agree too.",
+            "mid": "k3WK4l8C6jWz",
+            "quest": 1,
+            "turn": 7
+        },
+        "13": {
+            "player": "player-1",
+            "msg": "ok, i am glad everyone seems to be fine with this",
+            "mid": "7kmRPwQSwVLKJ",
+            "quest": 1,
+            "turn": 8
+        },
+        "14": {
+            "player": "player-1",
+            "msg": "i will maintain the party for now. lets vote",
+            "mid": "Qz5963bc9KR",
+            "quest": 1,
+            "turn": 8
+        },
+        "15": {
+            "player": "system",
+            "msg": "party vote outcome: player-1: yes, player-2: yes, player-3: yes, player-4: yes, player-5: yes, player-6: yes",
+            "mid": "NZrNK4pSqKzy",
+            "quest": 1,
+            "turn": 8
+        },
+        "16": {
+            "player": "system",
+            "msg": "vote succeeded! initiating quest vote!",
+            "mid": "NZrNK4pSqKzy",
+            "quest": 1,
+            "turn": 8
+        },
+        "17": {
+            "player": "system",
+            "msg": "quest succeeded!",
+            "mid": "P1jyN9jIPDqb",
+            "quest": 1,
+            "turn": 8
+        },
+        "18": {
+            "player": "player-2",
+            "msg": "for now, i would propose myself because i am on the good side. because the first round would not be helpful in terms of gathering information, i would propose bringing on player-1 at the very least.",
+            "mid": "XzjqQkztmZ7E",
+            "quest": 2,
+            "turn": 1
+        },
+        "19": {
+            "player": "player-2",
+            "msg": "then i want to bring player-3 on for the second quest as well.",
+            "mid": "XzjqQkYsyQXl",
+            "quest": 2,
+            "turn": 1
+        },
+        "20": {
+            "player": "player-2",
+            "msg": "i would like to gather some information potentially from him as well and i would like to hear what he others have to say about this",
+            "mid": "g3WLDzeug3Qm5",
+            "quest": 2,
+            "turn": 1
+        },
+        "21": {
+            "player": "system",
+            "msg": "player-2 proposed a party: player-1, player-2, player-3",
+            "mid": "none",
+            "quest": 2,
+            "turn": 1
+        },
+        "22": {
+            "player": "player-3",
+            "msg": "i would be on board with the proposed team, while i do not have much information about the others, i would selfdeclare myself to be on the good side and eitherways, if the quest does not succeed we do have more information in hand its onto of the three of us, not me tho lol. just keep in mind that even if the quest fails, it may not necessarily be the person introduced to the party in the second round",
+            "mid": "9m57P5rIEaEE",
+            "quest": 2,
+            "turn": 2
+        },
+        "23": {
+            "player": "player-4",
+            "msg": "first of all, i have to propose myself on the good side. from the information i got from the chat. i think player-2 might be a good guy. to ensure the mission to be successful i would like to join the team",
+            "mid": "WVlODrbC33D3a",
+            "quest": 2,
+            "turn": 3
+        },
+        "24": {
+            "player": "player-5",
+            "msg": "i agree with the proposed party. it is unlikely for the first round with party of 2 to fail. so it is hard to firmly tell whether player-1 and player-2 are good. i know i am a good person, so i would be happier if i am in the proposed party. but i will still agree with the proposed party at this time.",
+            "mid": "Qz5968eCnJ2LV",
+            "quest": 2,
+            "turn": 4
+        },
+        "25": {
+            "player": "player-6",
+            "msg": "i guess it doesn't matter too much who is on the quest at this time, but i would like player-2 to include me on the next quest.",
+            "mid": "23ZnP1WCr3De",
+            "quest": 2,
+            "turn": 5
+        },
+        "26": {
+            "player": "player-1",
+            "msg": "we will gather quite some information from this party.",
+            "mid": "k3WK4XMHpvMRD",
+            "quest": 2,
+            "turn": 6
+        },
+        "27": {
+            "player": "player-1",
+            "msg": "having player-2 and me on it seems like a good idea as we already succeeded in the previous quest.",
+            "mid": "r9NKvX4TEVKv",
+            "quest": 2,
+            "turn": 6
+        },
+        "28": {
+            "player": "player-1",
+            "msg": "i will leave the extra player choice to the party leader.",
+            "mid": "zyQaP25cXnpYo",
+            "quest": 2,
+            "turn": 6
+        },
+        "29": {
+            "player": "player-1",
+            "msg": "if this party succeeds, all the party members are good because if there is would have been an evil player, they will fail this quest for sure now.",
+            "mid": "XzjqQLpuVpEJ",
+            "quest": 2,
+            "turn": 6
+        },
+        "30": {
+            "player": "player-1",
+            "msg": "if the quest fails, i could draw some additional conclusions, but i will keep them to myself for now.",
+            "mid": "7kmRPpoFR3ErO",
+            "quest": 2,
+            "turn": 6
+        },
+        "31": {
+            "player": "player-2",
+            "msg": "since for now, there would only be one spot left if we want to gather some clues about the roles at all. i would keep my previous proposal, if you insist that you should be on the quest, i think we could include you on the next one. because the one with 4 is the hardest to succeed.",
+            "mid": "23ZnPPeTPxM3K",
+            "quest": 2,
+            "turn": 7
+        },
+        "32": {
+            "player": "system",
+            "msg": "party vote outcome: player-1: yes, player-2: yes, player-3: yes, player-4: no, player-5: yes, player-6: no",
+            "mid": "RzNOy9xt22z9L",
+            "quest": 2,
+            "turn": 7
+        },
+        "33": {
+            "player": "system",
+            "msg": "vote succeeded! initiating quest vote!",
+            "mid": "RzNOy9xt22z9L",
+            "quest": 2,
+            "turn": 7
+        },
+        "34": {
+            "player": "system",
+            "msg": "quest failed!",
+            "mid": "ooZEv3MuvR4j",
+            "quest": 2,
+            "turn": 7
+        },
+        "35": {
+            "player": "system",
+            "msg": "player-3 proposed a party: player-1, player-2, player-3",
+            "mid": "none",
+            "quest": 3,
+            "turn": 0
+        },
+        "36": {
+            "player": "player-3",
+            "msg": "so it looks like the quest has failed, we can use the current round to gain more information about other members, i would like to propose myself, player-5, player-6 and player-1. i would still like to retain a player from the previous round in the hope that we might get more information in terms of suspecting who the evil person is. player-1 would have been on three quests now, and i arbitrarily choose player-1 in place of player-2 could be either one i can potentially change that candidate if there are good reasons for suspicions too. i would obviously like to be on the quest to help it succeed as i have self declared myself to be good",
+            "mid": "23ZnPWJcnbo5",
+            "quest": 3,
+            "turn": 1
+        },
+        "37": {
+            "player": "system",
+            "msg": "player-3 proposed a party: player-1, player-3, player-5, player-6",
+            "mid": "none",
+            "quest": 3,
+            "turn": 1
+        },
+        "38": {
+            "player": "player-4",
+            "msg": "surprisingly player-6 did not approve the vote. my mind is kind of in a mess now. i need some extra information to get further conclusions. but for the current round, i agree with the party.",
+            "mid": "Qz596MvhnnYDN",
+            "quest": 3,
+            "turn": 2
+        },
+        "39": {
+            "player": "player-5",
+            "msg": "i am wondering why percival hasn't clarify his role yet. i would strongly suggest percival to let us know his identity and lead us good people to success. second, i wont approve the proposed party unless i am on the quest.",
+            "mid": "bw13yXYfmgYJ",
+            "quest": 3,
+            "turn": 3
+        },
+        "40": {
+            "player": "player-5",
+            "msg": "i kind of doubt that player-4 is bad because we have already failed on round, and this is a party of four, if you are good, every good person should try to be on the quest.",
+            "mid": "P1jyNMWh86avq",
+            "quest": 3,
+            "turn": 3
+        },
+        "41": {
+            "player": "player-5",
+            "msg": "i wont approve this round until percival clarifies his identity and give us information.",
+            "mid": "EbVOPNXfp7za",
+            "quest": 3,
+            "turn": 3
+        },
+        "42": {
+            "player": "player-6",
+            "msg": "i would not approve this round until percival clarifies his identity as well.",
+            "mid": "lPW9xO7HoPka",
+            "quest": 3,
+            "turn": 4
+        },
+        "43": {
+            "player": "player-6",
+            "msg": "first of all, i dont have have a good credibility for player-3 based on what he said last round.",
+            "mid": "JZNg9yXtwj2",
+            "quest": 3,
+            "turn": 4
+        },
+        "44": {
+            "player": "player-6",
+            "msg": "he focused too much on how to clarify he was not the bad guy even if the person quest failed. i think this is kind of suspicious to me.",
+            "mid": "XzjqQDnuB5rJL",
+            "quest": 3,
+            "turn": 4
+        },
+        "45": {
+            "player": "player-6",
+            "msg": "similarly, player-3 included player-1 on the quest but not player-2 without a particular reason. so i have a low credibility to player-1 as well.",
+            "mid": "lPW9xlBi2QE96",
+            "quest": 3,
+            "turn": 4
+        },
+        "46": {
+            "player": "player-6",
+            "msg": "ultimately i am not going to approve this team and i hope any one on the good side not approve it.",
+            "mid": "LZy7K6mSRPLgv",
+            "quest": 3,
+            "turn": 4
+        },
+        "47": {
+            "player": "player-6",
+            "msg": "i also do not want myself on the quest because i know this is going to fail for sure.",
+            "mid": "v9r7vpJtje46",
+            "quest": 3,
+            "turn": 4
+        },
+        "48": {
+            "player": "player-1",
+            "msg": "failing this quest is unfortunate, but here is my conclusion from this",
+            "mid": "1XQxPKoF9knD",
+            "quest": 3,
+            "turn": 5
+        },
+        "49": {
+            "player": "player-1",
+            "msg": "since player-2 and i succeeded the first one, i think i tend to believe that he is good too, because he could have failed the first quest too, and forced himself onto the party again for the second round as he was the leader for that one.",
+            "mid": "j3ZDkzNUZkK",
+            "quest": 3,
+            "turn": 5
+        },
+        "50": {
+            "player": "player-1",
+            "msg": "that leaves player-3 slightly suspicious to me.",
+            "mid": "4BE4Pm5hvbRz2",
+            "quest": 3,
+            "turn": 5
+        },
+        "51": {
+            "player": "player-1",
+            "msg": "i would propose to send me, player-2, player-6, and finally either player-5 or player-4 on the quest.",
+            "mid": "8En4PbJswaNRe",
+            "quest": 3,
+            "turn": 5
+        },
+        "52": {
+            "player": "player-1",
+            "msg": "regarding percival, i dont think it is a good idea for higher to reveal themselves. if they declare themselves as merlin, the assassin will for sure know that that person is percival, making it easier on the assassin and thus defeating the purpose of percival.",
+            "mid": "lPW9xB5TqQpBR",
+            "quest": 3,
+            "turn": 5
+        },
+        "53": {
+            "player": "player-2",
+            "msg": "so it seems that we have at least one person on the bad side, so we need to choose this one wisely. given the current information we have, i would exclude player-3 from the quest at the very least, although not much can be said about me and player-1 were on the first successful round. i am on the good side, and we really need this to succeed. given the credibility player-3 has here with me, i would decline any proposal from him unless he is percival. and it would be safer to pass it to player-4 or player-5.",
+            "mid": "j3ZDk13uaLlMv",
+            "quest": 3,
+            "turn": 6
+        },
+        "54": {
+            "player": "player-3",
+            "msg": "i agree with player-1s take on percival. since there seems to be a lot of suspicion on me, i will re propose the party to include player-6, player-5, player-4 and player-2. i am not so sure the quest will succeed, but it seems counter productive to waste a proposal for the good guys when it is known that the vote wont succeed, so will propose the new party as player-1 suggested",
+            "mid": "Qz596b2i8Lp4",
+            "quest": 3,
+            "turn": 7
+        },
+        "55": {
+            "player": "system",
+            "msg": "party vote outcome: player-1: yes, player-2: yes, player-3: yes, player-4: yes, player-5: no, player-6: no",
+            "mid": "v9r7vgXU4QEe",
+            "quest": 3,
+            "turn": 7
+        },
+        "56": {
+            "player": "system",
+            "msg": "vote succeeded! initiating quest vote!",
+            "mid": "v9r7vgXU4QEe",
+            "quest": 3,
+            "turn": 7
+        },
+        "57": {
+            "player": "system",
+            "msg": "quest failed!",
+            "mid": "bw13yOMIq8wwg",
+            "quest": 3,
+            "turn": 7
+        },
+        "58": {
+            "player": "system",
+            "msg": "player-4 proposed a party: player-1, player-4, player-5, player-6",
+            "mid": "none",
+            "quest": 4,
+            "turn": 0
+        },
+        "59": {
+            "player": "player-4",
+            "msg": "im not so sure why the quest 3 failed. first of all, i have to claim myself as a good guy. im not so sure about player-6, though player-6 seemed to trust my based on his words. but for this time, i would like to try a different party.",
+            "mid": "k3WK42RunwBvK",
+            "quest": 4,
+            "turn": 1
+        },
+        "60": {
+            "player": "system",
+            "msg": "player-4 proposed a party: player-2, player-4, player-5",
+            "mid": "none",
+            "quest": 4,
+            "turn": 1
+        },
+        "61": {
+            "player": "player-5",
+            "msg": "it is really strange that player-3 doesn't include himself on the previous quest. if he is good, since we only have four good people in total, if he himself is not on the quest, he will know there is at least one bad person, and this round will definitely fail. so the only explanation is that player-3 is bad. he chooses to propose the party without him because he knows his partner is on the quest.",
+            "mid": "YWqDJbDCRK3D",
+            "quest": 4,
+            "turn": 2
+        },
+        "62": {
+            "player": "player-5",
+            "msg": "so player-3 is definitely bad to me. at the following round, if player-3 is on the quest, i will disapprove.",
+            "mid": "mJ3DRLZt8yj96",
+            "quest": 4,
+            "turn": 2
+        },
+        "63": {
+            "player": "player-5",
+            "msg": "i believe that player-6 is good based on what he has said. he follows the logic to help good people to win.",
+            "mid": "pz9LRkYcBq14q",
+            "quest": 4,
+            "turn": 2
+        },
+        "64": {
+            "player": "player-5",
+            "msg": "we good people can only win only if the following two rounds succeed. so percival please gives us some information.",
+            "mid": "3kJ4Kw8tWE22",
+            "quest": 4,
+            "turn": 2
+        },
+        "65": {
+            "player": "player-6",
+            "msg": "i think it is pretty clear that we should not approve any proposal from player-3, so i actually wonder why people approved for the previous request.",
+            "mid": "ooZERP4hQrR5b",
+            "quest": 4,
+            "turn": 3
+        },
+        "66": {
+            "player": "player-6",
+            "msg": "the only person who disapproved for the previous quest except me is player-5, so i would also endorse her good identity.",
+            "mid": "3kJ4KeLIlYV9",
+            "quest": 4,
+            "turn": 3
+        },
+        "67": {
+            "player": "player-6",
+            "msg": "i still believe player-3 is the bad person, and given that player-3 included player-1 on the second round and the third round, which both were failed, i am almost sure player-1 is also the bad guy.",
+            "mid": "Qz59oWgsBQoxJ",
+            "quest": 4,
+            "turn": 3
+        },
+        "68": {
+            "player": "player-6",
+            "msg": "so i would approve the proposed party this round. i am not very sure about the identity of player-2 and player-4, so please give us more information",
+            "mid": "mJ3DRo8S8zXQe",
+            "quest": 4,
+            "turn": 3
+        },
+        "69": {
+            "player": "player-1",
+            "msg": "i absolutely agree with player-5 on the conclusions to draw here.",
+            "mid": "B3vQD3ZCXoKM",
+            "quest": 4,
+            "turn": 4
+        },
+        "70": {
+            "player": "player-1",
+            "msg": "player-3 is bad for sure at this point as his choices dont make sense in the context of good people",
+            "mid": "OzlOozmTej6D",
+            "quest": 4,
+            "turn": 4
+        },
+        "71": {
+            "player": "player-1",
+            "msg": "while i knew that quest three will fail, i voted yes on the previous party because it had all new people in it. since that party failed too, i am now sure that player-2 is good too because the other bad person ended up on that quest and we know player-3 is bad, concluding that me and player-2 are good.",
+            "mid": "pz9LRgMFv6za",
+            "quest": 4,
+            "turn": 4
+        },
+        "72": {
+            "player": "player-1",
+            "msg": "this leaves one bad person among player-6, player-4, and player-5.",
+            "mid": "B3vQDl9FXgPq1",
+            "quest": 4,
+            "turn": 4
+        },
+        "73": {
+            "player": "player-1",
+            "msg": "as i said before that i think player-5 made a very good point, i have to trust her assessment.",
+            "mid": "v9r7Eyqf7nxpY",
+            "quest": 4,
+            "turn": 4
+        },
+        "74": {
+            "player": "player-1",
+            "msg": "thus i think that player-4 and player-3 are bad",
+            "mid": "D31kav1SQQpkn",
+            "quest": 4,
+            "turn": 4
+        },
+        "75": {
+            "player": "player-1",
+            "msg": "i conclude that the good people are me, player-2, player-6, and player-5",
+            "mid": "KZ6M78vCJWg9",
+            "quest": 4,
+            "turn": 4
+        },
+        "76": {
+            "player": "player-2",
+            "msg": "given that this is a very important one, i would agree with player-5 that we should not include player-3 on the quest. as for player-6, i would encourage putting him on the quest in place of player-5 or player-4 because to me he seems to have some information and has voted no on the previous failed quest. following the previous failed round, i would strongly advice putting myself on the quest as well.",
+            "mid": "VRrVPJlH6PRZ",
+            "quest": 4,
+            "turn": 5
+        },
+        "77": {
+            "player": "player-3",
+            "msg": "looks like the quest has failed. true this may not clear myself, but i think that we know for a fact that there is another evil person in that group included, both player-1 and player-2 have been on three quests and naturally the suspicions on them is a bit more. but i am not too confident with the current proposed party i think it may not be a good idea to include player-2. i still strongly feel the suspicions on me are unwarranted, but i guess there is not much i can do about it. all i can say for the good guys is to think a bit about why i would leave myself out if i was a bad guy i would want to fail the quest and to also read a bit into other peoples intentions and messages. eitherways this quest is bound to fail with the current party i think quite strongly. so i will disapprove, since the bad guys have already won two rounds. it certainly does seem like the game has derailed a bit now almost seems like there is intentional sabotage. people can read into this message as you will",
+            "mid": "qz5rPnQhokJZD",
+            "quest": 4,
+            "turn": 6
+        },
+        "78": {
+            "player": "player-4",
+            "msg": "it seems that player-6 and player-5 share the same idea. to ensure the safety of the quest. i would like to do an experiment. let player-5, player-6 and me on the board. so if the quest fails, i would have to say that player-5 and player-6 may be trying to fool us.",
+            "mid": "OzlOooauJawZE",
+            "quest": 4,
+            "turn": 7
+        },
+        "79": {
+            "player": "system",
+            "msg": "party vote outcome: player-1: no, player-2: yes, player-3: no, player-4: yes, player-5: yes, player-6: yes",
+            "mid": "YWqDJPXfjDNL",
+            "quest": 4,
+            "turn": 7
+        },
+        "80": {
+            "player": "system",
+            "msg": "vote succeeded! initiating quest vote!",
+            "mid": "YWqDJPXfjDNL",
+            "quest": 4,
+            "turn": 7
+        },
+        "81": {
+            "player": "system",
+            "msg": "quest failed!",
+            "mid": "lPW9n1DC2x6Jv",
+            "quest": 4,
+            "turn": 7
+        },
+        "82": {
+            "player": "system",
+            "msg": "evil has failed three quests and wins!",
+            "mid": "r9NKRJgtYPO8R",
+            "quest": 5,
+            "turn": 0
+        },
+        "83": {
+            "player": "system",
+            "msg": "### proposed a party: player-4, player-5, player-6",
+            "mid": "none",
+            "quest": 5,
+            "turn": 0
+        }
+    },
+    "persuasion": {
+        "1": {
+            "mid": "lPW9JoWF288bk",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "2": {
+            "mid": "r9NK8p1s3eXJ",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "3": {
+            "mid": "nMZK8YkceEam",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "4": {
+            "mid": "XzjqV7PtEy7x",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "5": {
+            "mid": "23ZnwqKSr3ML",
+            "persuasion": "appeal/defense",
+            "deception": "omission"
+        },
+        "6": {
+            "mid": "eWx5JPJfmkpp",
+            "persuasion": "appeal/defense",
+            "deception": "omission"
+        },
+        "7": {
+            "mid": "Qz59YOghq6BN",
+            "persuasion": "agreement",
+            "deception": null
+        },
+        "8": {
+            "mid": "JZNgaR5c6bYE",
+            "persuasion": "agreement",
+            "deception": "omission"
+        },
+        "9": {
+            "mid": "Qz5963bc9KR",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "10": {
+            "mid": "7kmRPwQSwVLKJ",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "11": {
+            "mid": "9m57P5rIEaEE",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "12": {
+            "mid": "WVlODrbC33D3a",
+            "persuasion": "appeal/defense",
+            "deception": "commission"
+        },
+        "13": {
+            "mid": "k3WK4XMHpvMRD",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "14": {
+            "mid": "r9NKvX4TEVKv",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "15": {
+            "mid": "zyQaP25cXnpYo",
+            "persuasion": "compromise/concession",
+            "deception": null
+        },
+        "16": {
+            "mid": "zyQaP25cXnpYo",
+            "persuasion": "compromise/concession",
+            "deception": null
+        },
+        "17": {
+            "mid": "XzjqQLpuVpEJ",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "18": {
+            "mid": "7kmRPpoFR3ErO",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "19": {
+            "mid": "23ZnPPeTPxM3K",
+            "persuasion": "logical deduction",
+            "deception": "influence"
+        },
+        "20": {
+            "mid": "23ZnPWJcnbo5",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "21": {
+            "mid": "Qz596MvhnnYDN",
+            "persuasion": "compromise/concession",
+            "deception": "influence"
+        },
+        "22": {
+            "mid": "lPW9xO7HoPka",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "23": {
+            "mid": "JZNg9yXtwj2",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "24": {
+            "mid": "XzjqQDnuB5rJL",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "25": {
+            "mid": "lPW9xlBi2QE96",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "26": {
+            "mid": "LZy7K6mSRPLgv",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "27": {
+            "mid": "v9r7vpJtje46",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "28": {
+            "mid": "k3WK4l8C6jWz",
+            "persuasion": "agreement",
+            "deception": null
+        },
+        "29": {
+            "mid": "23ZnP1WCr3De",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "30": {
+            "mid": "1XQxPKoF9knD",
+            "persuasion": "assertion",
+            "deception": null
+        },
+        "31": {
+            "mid": "j3ZDkzNUZkK",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "32": {
+            "mid": "4BE4Pm5hvbRz2",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "33": {
+            "mid": "8En4PbJswaNRe",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "34": {
+            "mid": "8En4PbJswaNRe",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "35": {
+            "mid": "lPW9xB5TqQpBR",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "36": {
+            "mid": "j3ZDk13uaLlMv",
+            "persuasion": "critique/opposition",
+            "deception": "influence"
+        },
+        "37": {
+            "mid": "Qz596b2i8Lp4",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "38": {
+            "mid": "k3WK42RunwBvK",
+            "persuasion": "appeal/defense",
+            "deception": "commission"
+        },
+        "39": {
+            "mid": "ooZERP4hQrR5b",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "40": {
+            "mid": "3kJ4KeLIlYV9",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "41": {
+            "mid": "Qz59oWgsBQoxJ",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "42": {
+            "mid": "mJ3DRo8S8zXQe",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "43": {
+            "mid": "B3vQD3ZCXoKM",
+            "persuasion": "agreement",
+            "deception": null
+        },
+        "44": {
+            "mid": "OzlOozmTej6D",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "45": {
+            "mid": "B3vQDl9FXgPq1",
+            "persuasion": "logical deduction",
+            "deception": null
+        },
+        "46": {
+            "mid": "VRrVPJlH6PRZ",
+            "persuasion": "critique/opposition",
+            "deception": "influence"
+        },
+        "47": {
+            "mid": "qz5rPnQhokJZD",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "48": {
+            "mid": "v9r7Eyqf7nxpY",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "49": {
+            "mid": "D31kav1SQQpkn",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "50": {
+            "mid": "KZ6M78vCJWg9",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "51": {
+            "mid": "VRrVPJlH6PRZ",
+            "persuasion": "critique/opposition",
+            "deception": "influence"
+        },
+        "52": {
+            "mid": "pz9LRgMFv6za",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "53": {
+            "mid": "mJ3DRLZt8yj96",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "54": {
+            "mid": "pz9LRkYcBq14q",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "55": {
+            "mid": "3kJ4Kw8tWE22",
+            "persuasion": "appeal/defense",
+            "deception": null
+        },
+        "56": {
+            "mid": "YWqDJbDCRK3D",
+            "persuasion": "critique/opposition",
+            "deception": null
+        },
+        "57": {
+            "mid": "OzlOooauJawZE",
+            "persuasion": "suggestion",
+            "deception": "influence"
+        },
+        "58": {
+            "mid": "eWx5lZxIRZ1R",
+            "persuasion": "agreement",
+            "deception": null
+        },
+        "59": {
+            "mid": "XzjqQkztmZ7E",
+            "persuasion": "appeal/defense",
+            "deception": "commission"
+        },
+        "60": {
+            "mid": "XzjqQkYsyQXl",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "61": {
+            "mid": "g3WLDzeug3Qm5",
+            "persuasion": "suggestion",
+            "deception": null
+        },
+        "62": {
+            "mid": "Qz5968eCnJ2LV",
+            "persuasion": "agreement",
+            "deception": null
+        },
+        "63": {
+            "mid": "bw13yXYfmgYJ",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "64": {
+            "mid": "P1jyNMWh86avq",
+            "persuasion": "questioning",
+            "deception": null
+        },
+        "65": {
+            "mid": "EbVOPNXfp7za",
+            "persuasion": "assertion",
+            "deception": null
+        }
+    }
+}
