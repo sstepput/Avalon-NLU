@@ -125,26 +125,76 @@
     </section>
 
     <section class="section">
-        <div class="container is-max-desktop content">
+        <div class="container is-max-desktop">
 
-            <div class="rows">
+            <div class="columns is-centered">
+                <!-- Visual Effects. -->
+                <div class="column">
+                    <div class="content">
+                        <h2 class="title is-4">Avalon Dataset</h2>
+                        <img src="static/assets/ds.gif" onmouseover="this.src='static/assets/ds.gif'" alt="Avalon Dataset" width="70%" style="margin-left: 15%;">
+                        <p>
+                            20 games played by 30 users across 19 unique teams. Over 24 hours of playtime with full game chat, game state, player beliefs, as well as persuasion and deception strategies.
+                        </p>
+                    </div>
+                </div>
+                <!--/ Visual Effects. -->
 
-                <div class="rows is-centered ">
-                    <di v class="row is-full-width">
-                        <h2 class="title is-3"><span class="dcliport">Dataset Overview</span></h2>
-                        <div class="desk">
-                            The following is an example game from our dataset of current 20 games.
-                            <iframe src="https://avalon-nlu.streamlit.app/?embed=true&embed_options=light_theme" height="1000px" style="width:100%;border:none;"></iframe>
-                        </div>
-                        <div class="div-only-mobile">
-                            Our dataset of currently 20 games contains the following information: Chat among the six players, hand-labeled persuasion strategies, hand-labeled deception strategies for all evil players, beliefs over what players though about other players at different
-                            stages of the game, as well as the full game state containing proposed parties and vote outcomes.
-                            <br> <br><b>Note:</b> <i>For non-mobile devices, this website provides an interactive demo of our dataset.</i>
-                        </div>
+                <!-- Matting. -->
+                <div class="column">
+                    <div class="content">
+                        <h2 class="title is-4">Game Representation</h2>
+                        <img src="static/assets/game_states.png" alt="State Representation" width="70%" style="margin-left: 15%;">
+                        <p>
+                            The game's context (i.e., chat and game state) is represented either from the beginning of the game (green), or in a round-based manner (yellow), utilizing a carried over belief of player roles.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Matting. -->
+                <div class="column">
+                    <div class="content">
+                        <h2 class="title is-4">Role Prediction</h2>
+                        <img src="static/assets/role_prediction.png" alt="Role Prediction" width="70%" style="margin-left: 15%;">
+                        <p>
+                            We evaluate GPT-4, GPT-3.5, and Llama-2 (including fine-tune versions of GPT-3.5 and Llama-2) predicting each palyer's role and find that such model struggle with such complex NLU tasks.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns is-centered ">
+                <div class="column is-full-width">
+                    <h2 class="title is-3"><span class="dcliport">Dataset Overview</span></h2>
+
+                    We present a novel benchmark, associated dataset, and testbed (see our GitHub) for long-horizon dialogue understanding in scenarios of conflicting interests among multiple participants. This task combines utterances from six human players at a time, hand-labeled
+                    persuasion and deception strategies, player beliefs, and comprehensive game states recorded over more than 24 hours of gameplay. We demonstrate that current state-of-the-art LLMs do not reach human-level performance in environments
+                    that require the understanding and tracking of <i>long-horizon</i> dialogue between multiple participants in challenging social cooperative-competitive settings. Compared to similar datasets, our benchmark contains
+                    longer context horizons, stricter game rules, and high-quality dialogue, making it well-suited for NLU research as all game-relevant communication has been captured and is thus, available to learning algorithms. In our interactive
+                    demo below, you can check out one the data collected during one of our games in an interactive manner.
+
+                    <br><br> Our main contributions are as follows:
+                    <ul>
+                        <li>A testbed and dataset containing 2384 utterances from 20 human player games hand-annotated with strategies (persuasion and deception), player beliefs, and game state.</li>
+                        <li>A comprehensive analysis of LLM performance in our proposed multimodal long-horizon dialogue understanding benchmark, including persuasive and deceptive behavior.</li>
+                        <li>An exploration of the limitations of current models and the introduction of state representations that can improve long-horizon dialogue modeling.</li>
+                    </ul>
+                    <br>
+
+                    <h3 class="title is-4"><span class="dcliport">Interactive Example</span></h3>
+                    <div class="desk">
+                        The following is an example game from our dataset of current 20 games. Please utilize the respective round and turn selectors to "scroll" through the game. In the dataset available on our GitHub, each game is represented as a JSON file that containing
+                        all the information presented in the demonstration below.
+                        <iframe src="https://avalon-nlu.streamlit.app/?embed=true&embed_options=light_theme" height="1000px" style="width:100%;border:none;"></iframe>
+                    </div>
+                    <div class="div-only-mobile">
+                        Our dataset of currently 20 games contains the following information: Chat among the six players, hand-labeled persuasion strategies, hand-labeled deception strategies for all evil players, beliefs over what players though about other players at different
+                        stages of the game, as well as the full game state containing proposed parties and vote outcomes.
+                        <br> <br><b>Note:</b> <i>For non-mobile devices, this website provides an interactive demo of our dataset.</i>
+                    </div>
 
                 </div>
             </div>
-        </div>
     </section>
 
     <section class="section" id="BibTeX">
