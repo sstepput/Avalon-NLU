@@ -24,3 +24,14 @@ ul {
 ul li {
     margin-left: 20px;
 }
+
+.notebox {
+    background-color: brown;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: rgb(74, 19, 19);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+}
