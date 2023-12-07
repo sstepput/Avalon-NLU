@@ -1,0 +1,48 @@
+<!-- 
+    Copyright 2023 by Simon Stepputtis, Carnegie Mellon University
+    All rights reserved.
+    This file is part of the Avalon-NLU repository,
+    and is released under the "MIT License Agreement". Please see the LICENSE
+    file that should have been included as part of this package.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/login.css') }}">
+    <title>Avalon</title>
+</head>
+
+<body>
+    <section>
+        <div class="login-box">
+            <div class="form-value">
+                {% if msg != "" %}
+                <div class="login-msg">{{ msg }}</div>
+                {% endif %}
+                <form method="POST">
+                    {{ form.hidden_tag() }}
+                    <h2>Avalon Login</h2>
+                    <div class="inputbox">
+                        {{ form.username() }}
+                        <label for="">{{ form.username.label }}</label>
+                        <div class="error_box">
+                            {% for error in form.username.errors %}{{ error }}{% endfor %}
+                        </div>
+                    </div>
+                    <div class="inputbox">
+                        {{ form.password() }}
+                        <label for="">{{ form.password.label }}</label>
+                    </div>
+                    {{ form.submit() }}
+                    <div class="register">
+                        <p>Don't have a account? <a href="/register">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

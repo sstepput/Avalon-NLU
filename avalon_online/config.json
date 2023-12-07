@@ -1,0 +1,28 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 23001,
+        "debug": true
+    },
+    "flask": {
+        "secret_key": "OV5yRcfBODdwTWHH",
+        "flask_secret": "#FL^=Um$[xxKlDu0"
+    },
+    "game": {
+        "max_players": 6,
+        "roles": ["merlin", "percival", "servant-1", "servant-2", "morgana", "assassin"],
+        "turn_time": 200,
+        "quest_party_size": [2, 3, 4, 3, 4],
+        "vote_time": 30,
+        "persuasion_strategy": [
+            "Assertion",
+            "Questioning",
+            "Suggestion",
+            "Agreement",
+            "Logical Deduction",
+            "Compromise/Concession",
+            "Critique/Opposition",
+            "Appeal/Defense"
+        ]
+    }
+}

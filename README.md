@@ -30,7 +30,12 @@ We provide the dataset of 20 games in the _/dataset_ folder, where each game is 
     - Players have occasionally indicated their beliefs over other player's roles
 
 ## Running the Online version of Avalon
-The online simulator will be released soon! 
+The online version of Avalon can be found in the folder _avalon_online_. In order to run the game, create a new conda environment with the _environment.yml_ file and run 
+```
+python main.py
+```
+After that, open the displayed URL in your browser. 
 
 ## Changelog
+- [December 2023] Released initial Avalon online testbed
 - [November 2023] Initial release of the dataset and project website

@@ -1,0 +1,188 @@
+<!-- 
+    Copyright 2023 by Simon Stepputtis, Carnegie Mellon University
+    All rights reserved.
+    This file is part of the Avalon-NLU repository,
+    and is released under the "MIT License Agreement". Please see the LICENSE
+    file that should have been included as part of this package.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/game.css') }}">
+    <title>Avalon</title>
+    <script type="text/javascript" src="{{ url_for('static', filename='socket.io.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='jquery-1.4.2.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='game.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='help-dialogue.js') }}"></script>
+</head>
+
+<body onbeforeunload="leave_room()">
+    <section>
+        <div class="info-box">
+            <h2>Game Chat</h2>
+            <div class="chat" id="chat"></div><br>
+            <input class="input-text" id="text" size="76" placeholder="Enter your message here" maxlength="200">
+            <p id="x_is_typing" style="color: lightgray; font-size: 14px;">???</p>
+        </div>
+        <div class="info-box">
+            <div class="table">
+                <div class="loading-bar">
+                    <p>Turn Time</p>
+                    <div id="loading-bar-progress"></div>
+                    <button type="button" class="button end-turn-button" id="end_turn_button">End My Turn</button>
+                </div>
+                {% for i in range(1, 7) %}
+                <div class="player-box player-loc-{{ i }}">
+                    <img class="player-frame" id="player-frame-{{i}}" onclick="selected_for_party(event)" src="{{ url_for('static',filename='assets/avatar-frame.png') }}" />
+                    <img class="player-name-box" src="{{ url_for('static',filename='assets/name-frame.png') }}" />
+                    <img class="player-portret" id="player-portret-{{i}}" style="display:none" onclick="selected_for_party(event)" src="{{ url_for('static',filename='assets/empty.png') }}">
+                    <img class="player-role-box" src="{{ url_for('static',filename='assets/name-frame.png') }}" />
+                    <div class="x-mark" id="x-mark-{{i}}" style="display: none"></div>
+                    <div class="evil-ring" id="evil-ring-{{i}}" style="display: none"></div>
+                    <div class="good-ring" id="good-ring-{{i}}" style="display: none"></div>
+                    <div class="unknown-ring" id="unknown-ring-{{i}}" style="display: none"></div>
+                    <div class="disconnected" id="disconnected-{{i}}" style="display: none"></div>
+                    <div class="crown" id="crown-{{i}}" style="display: none"></div>
+                    <div class="jester" id="jester-{{i}}" style="display: none"></div>
+                    <div class="shield" id="shield-{{i}}" style="display: none"></div>
+                    <div class="player-name" id="player-name-{{i}}">N/A</div>
+                    <div class="player-predicted-role" id="player-predicted-role-{{i}}">n/a</div>
+                    <select class="player-belief" name="player-{{i}}-belief" id="player-belief-{{i}}" onchange="selectBelief(this.id)">
+                        <option value="undecided">Undecided</option>
+                        <optgroup label="Arthur's Servants" class="green">
+                            <option value="merlin">Merlin</option>
+                            <option value="percival">Percival</option>
+                            <option value="servant">Servant</option>
+                        </optgroup>
+                        <optgroup label="Mordred's Servants">
+                            <option value="assassin">Assassin</option>
+                            <option value="morgana">Morgana</option>
+                            <option value="minion">Minion</option>
+                        </optgroup>
+                    </select>
+                </div> {% endfor %}
+                <div class="quest-bar">{% for i in range(1, 6) %}
+                    <div class="quest-ring" style="left: {{(i-1)*62}}px">
+                        <div class="quest-text">{{qsize[i-1]}}</div>
+                        <img class="quest-image" id="quest-image-{{i}}" style="display: none" src="{{ url_for('static',filename='assets/quest-success.png') }}" />
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="party-bar">{% for i in range(1, 6) %} {% if i == 5 %}
+                    <div class="party-ring" style="left: {{(i-1)*40}}px; background-color: maroon;">
+                        {% else %}
+                        <div class="party-ring" style="left: {{(i-1)*40}}px">
+                            {% endif %}
+                            <img class="party-image" id="party-image-{{i}}" style="display: none" src="{{ url_for('static',filename='assets/chip.png') }}" />
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="voting-bar">
+                        <div id="voting-task" style="display: none">Do you approve of the proposed party?<br>Party Size: 3/4</div>
+                        <div class="voting-buttons">
+                            <button type="button" class="button vote-button" id="vote_yes_button" style="display: none">Yes</button>
+                            <button type="button" class="button vote-button" id="vote_no_button" style="display: none">No</button>
+                            <button type="button" class="button vote-button" id="vote_confirm_button" style="display: none">Confirm Party</button>
+                            <button type="button" class="button vote-button" id="vote_party_button" style="display: none">Vote for Party</button>
+                            <button type="button" class="button vote-button" id="vote_assassin_button" style="display: none">Finalize</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logout-button">
+                <form action="#" method="post">
+                    <input type="submit" name="leave" value="Leave Game"></input>
+                </form>
+            </div>
+            <div class="game-id-box">
+                Game-ID: {{gid}}
+            </div>
+
+            <div class="help-button">
+                <button type="button" class="help_button" id="help_button">How to Play</button>
+            </div>
+            <div class="help-box" id="help-box" style="display: none">
+                <h2>How to Play</h2>
+                <p>The Resistance: Avalon is the game of hidden loyalty. Players are either Loyal Servants of Arther fighting for Goodness and honor or aligned with the Evil ways of Mordred. Good wins the game by successfully completing three Quests. Evil
+                    wins if three Quests end in failure. Evil can also win by assassinating Merlin at game's end or if a Quest cannot be undertaken. Players may make any claims during their turns. Discussion, deception, accusation, and logical deducation
+                    are all equally important in order for Good to prevail or Evil to rule the day.</p>
+                <p>Before playing a game, please
+                    <a href="https://avalon.fun/pdfs/rules.pdf">check out the official rules.</a> The differences in this version of Avalon in comparison to these rules will be explained below.</p><br>
+                <h3>Roles</h3>
+                <p>In this version of Avalon, you will play with five fixed roles:</p>
+                <div class="help-box-role">
+                    <img src="/static/assets/merlin.png" class="help-box-image" />
+                    <div class="help-box-role-text">
+                        <b>Merlin</b>
+                        <p>Merlin is on Good's side and knows the two evils' identity. The portrait frames of the evil people will have a red circle around them.</p>
+                    </div>
+                </div>
+                <div class="help-box-role">
+                    <img src="/static/assets/percival.png" class="help-box-image" />
+                    <div class="help-box-role-text">
+                        <b>Percival</b>
+                        <p>Percival is on the side of Good and gets information about two players. These two players are Morgana and Merlin; however, Percival does not know who is who. These two players will have a red-and-blue circle around them.</p>
+                    </div>
+                </div>
+                <div class="help-box-role">
+                    <img src="/static/assets/servant-1.png" class="help-box-image" />
+                    <img src="/static/assets/servant-2.png" class="help-box-image" />
+                    <div class="help-box-role-text" style="width: calc(100% - 160px);">
+                        <b>Servant</b>
+                        <p>Servants are on the side of Good but do not have any special knowledge or ability.</p>
+                    </div>
+                </div>
+                <div class="help-box-role">
+                    <img src="/static/assets/morgana.png" class="help-box-image" />
+                    <div class="help-box-role-text">
+                        <b>Morgana</b>
+                        <p>Morgana plays on the side of Evil and knows who the other evil player is, indicated by a red circle around their profile picture. Morgana appears as a potential Merlin to Percival.</p>
+                    </div>
+                </div>
+                <div class="help-box-role">
+                    <img src="/static/assets/assassin.png" class="help-box-image" />
+                    <div class="help-box-role-text">
+                        <b>Assassin</b>
+                        <p>Assassin plays on the side of Evil and knows who the other evil player is, indicated by a red circle around their profile picture. At the end of the game, should Good win, the Assassin can win the game for Evil by correctly identifying
+                            who Merlin is.</p>
+                    </div>
+                </div>
+                <br>
+                <h3>Communication</h3>
+                <p>For the purposes of this research study, communication between the players will be conducted through turns. During each player's turn, they will be able to communicate through the chat window, responding to previous questions or accusations,
+                    making new statements, and asking questions to other players. However, only the player whose turn it is will be able to use the chat. Please only communicate with the players within the interface provided in this version of the game.</p>
+                <p>After you send a message to the chat, you can indicate the strategy/motivation you used when writing the message. While not mandatory, it would be great if players would provide these insights. The information provided in the strategy
+                    selection will not be shared with other players, so don't worry about saying that you potentially lied about something! </p>
+                <br>
+                <h3>Communication Labels</h3>
+                <p>These are the labels and explanations available for your communication</p>
+                <ul style="margin-left:2em;">
+                    <li>Assertion/Claim: This includes statements where the speaker makes an assertive remark, expresses a firm belief or makes a definitive statement.</li>
+                    <li>Suspicion: This includes all instances of doubt, questioning, or suspicion that the speaker raises about another player.</li>
+                    <li>Proposal/Suggestion: This includes all instances where the speaker suggests an action, makes a proposal, or gives advice to another player.</li>
+                    <li>Agreement/Affirmation: This encompasses sentences where the speaker is agreeing with another player's statement or strategy, affirming their own identity or someone else's.</li>
+                    <li>Strategic Reasoning/Explanation: This includes statements where the speaker provides a reasoned explanation, defends a point of view, elaborates a strategy or justifies their actions.</li>
+                    <li>Concession/Indecision: This category includes any sentences where the speaker concedes to another's point of view, expresses indecision, or appears to back down from a previously held stance.</li>
+                    <li>Appeal: This category covers situations where the speaker appeals to others for trust, to be included in the quest, or uses emotional/personal appeal to gain favor.</li>
+                    <li>Critique/Counter-Argument: This includes instances where the speaker critiques another's view, counters an argument, or points out an inconsistency or flaw in another's reasoning.</li>
+                </ul>
+                <br>
+                <h3>Turns</h3>
+                <p>The player with the crown is the current quest leader, while the jester's hat indicates whose turn it currently is. Each turn is limited to 100 seconds, after which the game automatically transitions to the next player. Similarly, if a
+                    vote is necessary, you will have 30 seconds to cast your vote. After that, parties/quests will be approved automatically for players that didn't vote. </p>
+                <p>The quest leader has to allow one round of discussion prior to being able to initiate a party vote. However, party proposals can be changed whenever it is the turn of the leader. </p>
+                <br>
+                <h3>Parties</h3>
+                <p>Parties are indicated by a little shield icon next to a player's profile. If there is a shield, players are part of the party.</p>
+                <br>
+                <h3>Selecting Players</h3>
+                <p>Players can be selected for a party or by the Assassin to indicate who they think is Merlin by clicking on their player profile picture frame. However, remember to confirm your choices. Clicking on player profile frames alone will only
+                    count as a choice if the choice is explicitly confirmed.</p>
+            </div>
+
+    </section>
+</body>
+
+</html>
